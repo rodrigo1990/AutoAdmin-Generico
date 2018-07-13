@@ -1,0 +1,7 @@
+
+RewriteEngine on
+Redirect 301 /http://www.argenpesosonline.com.ar https://www.argenpesos.com.ar
+RewriteCond %{HTTP_HOST} ^argenpesosonline\.com\.ar$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.argenpesosonline\.com\.ar$
+RewriteRule ^solicitarprestamo\/$ "http\:\/\/www\.argenpesos\.com\.ar\/solicitarprestamo\/" [R=301,L]
+

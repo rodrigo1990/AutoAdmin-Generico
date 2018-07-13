@@ -1,0 +1,3810 @@
+# Copyright (C) 2017 MyThemeShop
+# This file is distributed under the same license as the SociallyViral Pro by MyThemeShop package.
+msgid ""
+msgstr ""
+"Project-Id-Version: SociallyViral Pro by MyThemeShop 2.1.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/mts_sociallyviral\n"
+"POT-Creation-Date: 2017-03-03 13:28:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:12
+msgid "Error 404 Not Found"
+msgstr ""
+
+#: 404.php:16
+msgid "Oops! We couldn't find this Page."
+msgstr ""
+
+#: 404.php:17
+msgid "Please check your URL or use the search form below."
+msgstr ""
+
+#: archive.php:32 index.php:100 index.php:148 index.php:181 search.php:22
+msgid "Featured"
+msgstr ""
+
+#: comments.php:9
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:20
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:20
+msgid "One Response"
+msgstr ""
+
+#: comments.php:20
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:46
+msgid "Add Comment"
+msgstr ""
+
+#: comments.php:49
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:50
+msgid "Comment Text*"
+msgstr ""
+
+#: comments.php:54
+msgid "Name*"
+msgstr ""
+
+#: comments.php:56
+msgid "Email*"
+msgstr ""
+
+#: comments.php:57
+msgid "Website"
+msgstr ""
+
+#: functions/contact-form.php:33 functions/contact-form.php:51
+msgid "An error occurred. Please contact site administrator."
+msgstr ""
+
+#: functions/contact-form.php:72 functions/contact-form.php:77
+msgid "Please try again."
+msgstr ""
+
+#: functions/contact-form.php:83
+msgid "Please enter your name."
+msgstr ""
+
+#: functions/contact-form.php:89
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: functions/contact-form.php:95
+msgid "Please enter a message."
+msgstr ""
+
+#: functions/contact-form.php:111
+msgid "Contact Form Message from"
+msgstr ""
+
+#: functions/contact-form.php:112
+msgid "Name:"
+msgstr ""
+
+#: functions/contact-form.php:113
+msgid "Email:"
+msgstr ""
+
+#: functions/contact-form.php:114
+msgid "Message:"
+msgstr ""
+
+#: functions/contact-form.php:133 theme-options.php:989
+msgid "Name"
+msgstr ""
+
+#: functions/contact-form.php:136 theme-options.php:906 theme-options.php:919
+msgid "Email"
+msgstr ""
+
+#: functions/contact-form.php:139
+msgid "Message"
+msgstr ""
+
+#: functions/contact-form.php:142
+msgid "Send"
+msgstr ""
+
+#: functions/contact-form.php:145
+msgid "Your message has been sent."
+msgstr ""
+
+#: functions/metaboxes.php:11 functions.php:339 theme-options.php:983
+msgid "Sidebar"
+msgstr ""
+
+#: functions/metaboxes.php:43 options/fields/background/field_background.php:28
+#: options/fields/background/field_background.php:36
+#: options/fields/background/field_background.php:42
+#: options/fields/background/field_background.php:54
+#: options/fields/menu_select/field_menu_select.php:34
+#: options/fields/navbars_select/field_navbars_select.php:19
+#: options/fields/sidebars_select/field_sidebars_select.php:43
+msgid "Default"
+msgstr ""
+
+#: functions/metaboxes.php:53
+msgid "No sidebar --"
+msgstr ""
+
+#: functions/metaboxes.php:58
+msgid "Default side"
+msgstr ""
+
+#: functions/metaboxes.php:59
+msgid "Left"
+msgstr ""
+
+#: functions/metaboxes.php:60
+msgid "Right"
+msgstr ""
+
+#: functions/metaboxes.php:139
+msgid "Template"
+msgstr ""
+
+#: functions/metaboxes.php:167
+msgid "Default Post Template"
+msgstr ""
+
+#: functions/metaboxes.php:168
+msgid "Parallax Template"
+msgstr ""
+
+#: functions/metaboxes.php:169
+msgid "Zoom Out Effect Template"
+msgstr ""
+
+#: functions/metaboxes.php:233
+msgid "Header Animation"
+msgstr ""
+
+#: functions/metaboxes.php:263
+msgid "None"
+msgstr ""
+
+#: functions/metaboxes.php:264
+msgid "Parallax Effect"
+msgstr ""
+
+#: functions/metaboxes.php:265
+msgid "Zoom Out Effect"
+msgstr ""
+
+#: functions/metaboxes.php:329
+msgid "Menus"
+msgstr ""
+
+#: functions/metaboxes.php:369
+msgid "No menu assigned to this location."
+msgstr ""
+
+#: functions/metaboxes.php:440 functions.php:198 functions.php:220
+msgid "Featured Post"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: functions/nav-menu.php:128
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: functions/nav-menu.php:132
+msgid "%s (Pending)"
+msgstr ""
+
+#: functions/nav-menu.php:156
+msgid "Move up"
+msgstr ""
+
+#: functions/nav-menu.php:169
+msgid "Move down"
+msgstr ""
+
+#: functions/nav-menu.php:171 functions/nav-menu.php:173
+msgid "Edit Menu Item"
+msgstr ""
+
+#: functions/nav-menu.php:182 theme-options.php:530
+msgid "URL"
+msgstr ""
+
+#: functions/nav-menu.php:189
+msgid "Navigation Label"
+msgstr ""
+
+#: functions/nav-menu.php:195
+msgid "Title Attribute"
+msgstr ""
+
+#: functions/nav-menu.php:202
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: functions/nav-menu.php:207
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: functions/nav-menu.php:213
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: functions/nav-menu.php:219 functions/plugin-activation.php:2516
+msgid "Description"
+msgstr ""
+
+#: functions/nav-menu.php:221
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: functions/nav-menu.php:231
+msgid "Icon (optional)"
+msgstr ""
+
+#: functions/nav-menu.php:234
+#: options/fields/icon_select/field_icon_select.php:48
+msgid "No Icon"
+msgstr ""
+
+#: functions/nav-menu.php:250
+msgid "Color (optional)"
+msgstr ""
+
+#: functions/nav-menu.php:261
+msgid "Original: %s"
+msgstr ""
+
+#: functions/nav-menu.php:274 options/fields/multi_text/field_multi_text.php:39
+#: options/fields/multi_text/field_multi_text.php:46
+#: options/fields/multi_text/field_multi_text.php:50
+msgid "Remove"
+msgstr ""
+
+#: functions/nav-menu.php:275
+msgid "Cancel"
+msgstr ""
+
+#: functions/plugin-activation.php:333 functions/plugin-activation.php:3906
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions/plugin-activation.php:334 functions/plugin-activation.php:3907
+#: functions/plugin-activation.php:3978 functions/plugin-activation.php:3979
+msgid "Install Plugins"
+msgstr ""
+
+#: functions/plugin-activation.php:335 functions/plugin-activation.php:3908
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions/plugin-activation.php:336 functions/plugin-activation.php:3909
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions/plugin-activation.php:337
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/plugin-activation.php:342 functions/plugin-activation.php:3911
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/plugin-activation.php:347
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/plugin-activation.php:352
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/plugin-activation.php:357
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/plugin-activation.php:362
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/plugin-activation.php:367
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/plugin-activation.php:372 functions/plugin-activation.php:3914
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/plugin-activation.php:377
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/plugin-activation.php:382 functions/plugin-activation.php:3918
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/plugin-activation.php:387
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/plugin-activation.php:392 functions/plugin-activation.php:3919
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/plugin-activation.php:397 functions/plugin-activation.php:3920
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions/plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: functions/plugin-activation.php:399 functions/plugin-activation.php:3144
+#: functions/plugin-activation.php:3921
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions/plugin-activation.php:400 functions/plugin-activation.php:2947
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: functions/plugin-activation.php:401
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: functions/plugin-activation.php:402
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: functions/plugin-activation.php:403
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: functions/plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: functions/plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: functions/plugin-activation.php:524
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: functions/plugin-activation.php:525
+msgid "Update Required"
+msgstr ""
+
+#: functions/plugin-activation.php:639
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: functions/plugin-activation.php:833 functions/plugin-activation.php:3553
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: functions/plugin-activation.php:940
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: functions/plugin-activation.php:940 functions/plugin-activation.php:943
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: functions/plugin-activation.php:943
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: functions/plugin-activation.php:1121 functions/plugin-activation.php:2943
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. #-#-#-#-#  default.pot (SociallyViral Pro by MyThemeShop 2.1.7)  #-#-#-#-#
+#. Author of the plugin/theme
+#: functions/plugin-activation.php:1282 functions/plugin-activation.php:3940
+msgid "MyThemeShop"
+msgstr ""
+
+#: functions/plugin-activation.php:1308
+msgid "Available Separately"
+msgstr ""
+
+#: functions/plugin-activation.php:1924
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: functions/plugin-activation.php:2209
+msgid "Required"
+msgstr ""
+
+#: functions/plugin-activation.php:2212 functions/plugin-activation.php:4072
+msgid "Recommended"
+msgstr ""
+
+#: functions/plugin-activation.php:2228
+msgid "WordPress Repository"
+msgstr ""
+
+#: functions/plugin-activation.php:2231
+msgid "External Source"
+msgstr ""
+
+#: functions/plugin-activation.php:2234
+msgid "Pre-Packaged"
+msgstr ""
+
+#: functions/plugin-activation.php:2251 functions/plugin-activation.php:2427
+#: functions/plugin-activation.php:4233
+msgid "Not Installed"
+msgstr ""
+
+#: functions/plugin-activation.php:2255
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: functions/plugin-activation.php:2257 functions/plugin-activation.php:4159
+msgid "Active"
+msgstr ""
+
+#: functions/plugin-activation.php:2263
+msgid "Required Update not Available"
+msgstr ""
+
+#: functions/plugin-activation.php:2266
+msgid "Requires Update"
+msgstr ""
+
+#: functions/plugin-activation.php:2269
+msgid "Update recommended"
+msgstr ""
+
+#: functions/plugin-activation.php:2277
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: functions/plugin-activation.php:2322
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/plugin-activation.php:2325
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/plugin-activation.php:2328
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/plugin-activation.php:2331
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/plugin-activation.php:2428
+msgid "Version: %s"
+msgstr ""
+
+#: functions/plugin-activation.php:2429
+msgid "Source: %s"
+msgstr ""
+
+#: functions/plugin-activation.php:2432
+msgid "Visit plugin site"
+msgstr ""
+
+#: functions/plugin-activation.php:2450
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: functions/plugin-activation.php:2458
+msgid "Installed version:"
+msgstr ""
+
+#: functions/plugin-activation.php:2466
+msgid "Minimum required version:"
+msgstr ""
+
+#: functions/plugin-activation.php:2478
+msgid "Available version:"
+msgstr ""
+
+#: functions/plugin-activation.php:2501
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: functions/plugin-activation.php:2515
+msgid "Plugin"
+msgstr ""
+
+#: functions/plugin-activation.php:2571
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: functions/plugin-activation.php:2575
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: functions/plugin-activation.php:2580
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: functions/plugin-activation.php:2685
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: functions/plugin-activation.php:2718
+msgid "Install"
+msgstr ""
+
+#: functions/plugin-activation.php:2724
+msgid "Update"
+msgstr ""
+
+#: functions/plugin-activation.php:2727
+msgid "Activate"
+msgstr ""
+
+#: functions/plugin-activation.php:2758
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: functions/plugin-activation.php:2760
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: functions/plugin-activation.php:2796
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: functions/plugin-activation.php:2798
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: functions/plugin-activation.php:2903
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: functions/plugin-activation.php:2929
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: functions/plugin-activation.php:3143
+msgid "Plugin activation failed."
+msgstr ""
+
+#: functions/plugin-activation.php:3477
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/plugin-activation.php:3479
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: functions/plugin-activation.php:3480
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: functions/plugin-activation.php:3484
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: functions/plugin-activation.php:3485
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: functions/plugin-activation.php:3485 functions/plugin-activation.php:3491
+msgid "Show Details"
+msgstr ""
+
+#: functions/plugin-activation.php:3485 functions/plugin-activation.php:3491
+msgid "Hide Details"
+msgstr ""
+
+#: functions/plugin-activation.php:3486
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: functions/plugin-activation.php:3487
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/plugin-activation.php:3490
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: functions/plugin-activation.php:3491
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: functions/plugin-activation.php:3492
+msgid "All installations have been completed."
+msgstr ""
+
+#: functions/plugin-activation.php:3493
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/plugin-activation.php:3761
+msgid ""
+"A simple and easy way to update your MyThemeShop themes and plugins to the "
+"the latest versions using good old one click method!"
+msgstr ""
+
+#: functions/plugin-activation.php:3772
+msgid ""
+"WP Tab Widget Pro is the most powerful plugin for showing recommended "
+"content on blog posts to increase engagement and keep visitors on your site "
+"purpose."
+msgstr ""
+
+#: functions/plugin-activation.php:3783
+msgid ""
+"Create reviews! Choose from Stars, Percentages, Circles or Points for review "
+"scores. Supports Retina Display, WPMU & Unlimited Color Schemes."
+msgstr ""
+
+#: functions/plugin-activation.php:3794
+msgid ""
+"These days, having an email subscriber list is key to running a successful "
+"blog, so we created WP Subscribe Pro. Boost your conversions of traffic to "
+"subscribers, and generate more residual traffic and earnings. WP Subscribe "
+"Pro supports Feedburner, MailChimp and Aweber and is a must-have plugin for "
+"any blog."
+msgstr ""
+
+#: functions/plugin-activation.php:3805
+msgid ""
+"WP Notification Bar is a custom notification and alert bar plugin for "
+"WordPress which is perfect for marketing promotions, alerts, increasing "
+"click throughs to other pages and so much more."
+msgstr ""
+
+#: functions/plugin-activation.php:3814
+msgid ""
+"WP Mega Menu is an easy to use plugin for creating beautiful, customized "
+"menus for your site. With no setup required, tons of options to choose from, "
+"and the ability to show categories, subcategories and posts, WP MegaMenu is "
+"a must have plugin that also boosts SEO and user engagement."
+msgstr ""
+
+#: functions/plugin-activation.php:3833
+msgid ""
+"WP Quiz is a completely FREE quiz plugin that will let you create endlessly "
+"customizable and highly professional quizzes for your WordPress site."
+msgstr ""
+
+#: functions/plugin-activation.php:3844
+msgid ""
+"My WP Backup Pro is the best way to protect your data and website in the "
+"event of adverse server events, data corruption, hacking and more. With the "
+"option to schedule backups and have them delivered via email, Amazon S3, and "
+"lots of other features, you can sleep easy knowing you're protected."
+msgstr ""
+
+#: functions/plugin-activation.php:3922
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions/plugin-activation.php:4067
+msgid "Essential"
+msgstr ""
+
+#: functions/plugin-activation.php:4099
+msgid "Recommended Plugins"
+msgstr ""
+
+#: functions/plugin-activation.php:4100
+msgid "MyThemeShop and third party plugins recommended for %s theme!"
+msgstr ""
+
+#: functions/plugin-activation.php:4147
+msgid "Get Pro Version!"
+msgstr ""
+
+#: functions/plugin-activation.php:4161
+msgid "Manage Plugin"
+msgstr ""
+
+#: functions/plugin-activation.php:4166
+msgid "Inactive"
+msgstr ""
+
+#: functions/plugin-activation.php:4180
+msgid "Activate Plugin"
+msgstr ""
+
+#: functions/plugin-activation.php:4187
+msgid "Update Now"
+msgstr ""
+
+#: functions/plugin-activation.php:4195
+msgid "Get it!"
+msgstr ""
+
+#: functions/plugin-activation.php:4213
+msgid "Install Plugin"
+msgstr ""
+
+#: functions/plugin-activation.php:4305 functions.php:743
+msgid "Loading..."
+msgstr ""
+
+#: functions/theme-actions.php:124
+msgid "Home"
+msgstr ""
+
+#: functions/theme-actions.php:214
+msgid "View all posts in %s"
+msgstr ""
+
+#: functions/theme-actions.php:255 functions/theme-actions.php:262
+#: page-contact.php:33 page.php:39 single.php:75
+msgid "Previous"
+msgstr ""
+
+#: functions/theme-actions.php:256 functions/theme-actions.php:263
+#: page-contact.php:33 page.php:39 single.php:75
+msgid "Next"
+msgstr ""
+
+#: functions/theme-actions.php:319 functions/widget-relatedposts.php:30
+#: theme-options.php:785
+msgid "Related Posts"
+msgstr ""
+
+#: functions/twitteroauth.php:496
+msgid "OAuth version %s not supported"
+msgstr ""
+
+#: functions/twitteroauth.php:511
+msgid "No signature method parameter. This parameter is required"
+msgstr ""
+
+#: functions/twitteroauth.php:531
+msgid "Invalid consumer key"
+msgstr ""
+
+#: functions/twitteroauth.php:536
+msgid "Invalid consumer"
+msgstr ""
+
+#: functions/twitteroauth.php:551
+msgid "Invalid %s token: %s"
+msgstr ""
+
+#: functions/twitteroauth.php:579
+msgid "Invalid signature"
+msgstr ""
+
+#: functions/twitteroauth.php:589
+msgid "Missing timestamp parameter. The parameter is required"
+msgstr ""
+
+#: functions/twitteroauth.php:595
+msgid "Expired timestamp, yours %s, ours %s"
+msgstr ""
+
+#: functions/twitteroauth.php:605
+msgid "Missing nonce parameter. The parameter is required"
+msgstr ""
+
+#: functions/twitteroauth.php:616
+msgid "Nonce already used: %s"
+msgstr ""
+
+#: functions/welcome-message.php:21
+msgid "Awesomeness!"
+msgstr ""
+
+#: functions/welcome-message.php:22
+msgid "You have just Installed sociallyviral WordPress Theme by MyThemeShop."
+msgstr ""
+
+#: functions/welcome-message.php:23
+msgid ""
+"You can Trigger The Awesomeness using Amazing Option Panel in <b>Theme "
+"Options</b>."
+msgstr ""
+
+#: functions/welcome-message.php:26
+msgid "If you face any problem, head over to"
+msgstr ""
+
+#: functions/welcome-message.php:26
+msgid "Support Forums"
+msgstr ""
+
+#: functions/widget-ad125.php:32
+msgid "A widget for 125 x 125 ad unit (max 6 ads)"
+msgstr ""
+
+#: functions/widget-ad125.php:43
+msgid "%s125x125 Ads"
+msgstr ""
+
+#: functions/widget-ad125.php:190
+msgid "Our Sponsors"
+msgstr ""
+
+#: functions/widget-ad125.php:210 functions/widget-ad300.php:126
+#: functions/widget-authorposts.php:41 functions/widget-catposts.php:42
+#: functions/widget-popular.php:43 functions/widget-postslider.php:33
+#: functions/widget-recentposts.php:41 functions/widget-relatedposts.php:41
+#: functions/widget-social.php:170
+msgid "Title:"
+msgstr ""
+
+#: functions/widget-ad125.php:216
+msgid "Ad 1 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:222
+msgid "Ad 1 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:228
+msgid "Ad 2 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:234
+msgid "Ad 2 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:240
+msgid "Ad 3 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:246
+msgid "Ad 3 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:252
+msgid "Ad 4 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:258
+msgid "Ad 4 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:264
+msgid "Ad 5 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:270
+msgid "Ad 5 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:276
+msgid "Ad 6 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:282
+msgid "Ad 6 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:288
+msgid "Randomize ads order?"
+msgstr ""
+
+#: functions/widget-ad300.php:32
+msgid "A widget for 300 x 250 ad (Single banner)"
+msgstr ""
+
+#: functions/widget-ad300.php:43
+msgid "%s300x250 Ad"
+msgstr ""
+
+#: functions/widget-ad300.php:132
+msgid "Ad image url:"
+msgstr ""
+
+#: functions/widget-ad300.php:138
+msgid "Ad link url:"
+msgstr ""
+
+#: functions/widget-authorposts.php:14
+msgid "%sAuthor Posts"
+msgstr ""
+
+#: functions/widget-authorposts.php:15
+msgid ""
+"Display other posts written by the author of the current post. Will appear "
+"on single posts only."
+msgstr ""
+
+#: functions/widget-authorposts.php:30
+msgid "Author Posts"
+msgstr ""
+
+#: functions/widget-authorposts.php:46 functions/widget-catposts.php:62
+#: functions/widget-popular.php:54 functions/widget-postslider.php:49
+#: functions/widget-recentposts.php:46 functions/widget-relatedposts.php:46
+msgid "Number of Posts to show"
+msgstr ""
+
+#: functions/widget-authorposts.php:51 functions/widget-catposts.php:67
+#: functions/widget-popular.php:59 functions/widget-recentposts.php:51
+#: functions/widget-relatedposts.php:51
+msgid "Title Length:"
+msgstr ""
+
+#: functions/widget-authorposts.php:59 functions/widget-catposts.php:75
+#: functions/widget-popular.php:67 functions/widget-recentposts.php:59
+#: functions/widget-relatedposts.php:59
+msgid "Show Thumbnails"
+msgstr ""
+
+#: functions/widget-authorposts.php:64 functions/widget-catposts.php:80
+#: functions/widget-popular.php:72 functions/widget-recentposts.php:64
+#: functions/widget-relatedposts.php:64
+msgid "Posts layout:"
+msgstr ""
+
+#: functions/widget-authorposts.php:66 functions/widget-catposts.php:82
+#: functions/widget-popular.php:74 functions/widget-recentposts.php:66
+#: functions/widget-relatedposts.php:66
+#: options/fields/background/field_background.php:218
+msgid "Horizontal"
+msgstr ""
+
+#: functions/widget-authorposts.php:67 functions/widget-catposts.php:83
+#: functions/widget-popular.php:75 functions/widget-recentposts.php:67
+#: functions/widget-relatedposts.php:67
+#: options/fields/background/field_background.php:219
+msgid "Vertical"
+msgstr ""
+
+#: functions/widget-authorposts.php:74 functions/widget-catposts.php:90
+#: functions/widget-popular.php:82 functions/widget-recentposts.php:74
+#: functions/widget-relatedposts.php:74
+msgid "Show post date"
+msgstr ""
+
+#: functions/widget-authorposts.php:81 functions/widget-catposts.php:97
+#: functions/widget-popular.php:89 functions/widget-recentposts.php:81
+#: functions/widget-relatedposts.php:81
+msgid "Show number of comments"
+msgstr ""
+
+#: functions/widget-authorposts.php:88 functions/widget-catposts.php:104
+#: functions/widget-popular.php:96 functions/widget-recentposts.php:88
+#: functions/widget-relatedposts.php:88
+msgid "Show excerpt"
+msgstr ""
+
+#: functions/widget-authorposts.php:93 functions/widget-catposts.php:109
+#: functions/widget-popular.php:101 functions/widget-recentposts.php:93
+#: functions/widget-relatedposts.php:93
+msgid "Excerpt Length:"
+msgstr ""
+
+#: functions/widget-catposts.php:14
+msgid "%sCategory Posts"
+msgstr ""
+
+#: functions/widget-catposts.php:15
+msgid "Display the most recent posts from a single category"
+msgstr ""
+
+#: functions/widget-catposts.php:30
+msgid "Featured Category"
+msgstr ""
+
+#: functions/widget-catposts.php:46 functions/widget-postslider.php:37
+msgid "Category:"
+msgstr ""
+
+#: functions/widget-fblikebox.php:20
+msgid "Add Facebook Like Box."
+msgstr ""
+
+#: functions/widget-fblikebox.php:24
+msgid "%sFB Like Box"
+msgstr ""
+
+#: functions/widget-fblikebox.php:81
+msgid "Find us on Facebook"
+msgstr ""
+
+#: functions/widget-fblikebox.php:85 theme-options.php:520
+#: theme-options.php:679
+msgid "Title"
+msgstr ""
+
+#: functions/widget-fblikebox.php:90
+msgid "Facebook Page URL"
+msgstr ""
+
+#: functions/widget-fblikebox.php:95
+msgid "Width"
+msgstr ""
+
+#: functions/widget-fblikebox.php:101
+msgid "Show faces"
+msgstr ""
+
+#: functions/widget-fblikebox.php:106
+msgid "Show stream"
+msgstr ""
+
+#: functions/widget-fblikebox.php:111
+msgid "Show facebook header"
+msgstr ""
+
+#: functions/widget-popular.php:14
+msgid "%sPopular Posts"
+msgstr ""
+
+#: functions/widget-popular.php:15
+msgid "Displays most Popular Posts with Thumbnail."
+msgstr ""
+
+#: functions/widget-popular.php:31
+msgid "Popular Posts"
+msgstr ""
+
+#: functions/widget-popular.php:48
+msgid "Popular limit (days):"
+msgstr ""
+
+#: functions/widget-postslider.php:15
+msgid "%sPost Slider"
+msgstr ""
+
+#: functions/widget-postslider.php:16
+msgid "Display posts from multiple categories in an animated slider."
+msgstr ""
+
+#: functions/widget-postslider.php:22
+msgid "Featured Posts"
+msgstr ""
+
+#: functions/widget-postslider.php:54
+msgid "Navigaton type:"
+msgstr ""
+
+#: functions/widget-postslider.php:56
+msgid "Bulleted"
+msgstr ""
+
+#: functions/widget-postslider.php:57
+msgid "Arrows"
+msgstr ""
+
+#: functions/widget-postslider.php:64
+msgid "Show Title"
+msgstr ""
+
+#: functions/widget-recentposts.php:14
+msgid "%sRecent Posts"
+msgstr ""
+
+#: functions/widget-recentposts.php:15
+msgid "Display the most recent posts from all categories"
+msgstr ""
+
+#: functions/widget-recentposts.php:30
+msgid "Recent Posts"
+msgstr ""
+
+#: functions/widget-relatedposts.php:14
+msgid "%sRelated Posts"
+msgstr ""
+
+#: functions/widget-relatedposts.php:15
+msgid ""
+"Display the related posts from current post's categories. Will appear on "
+"single posts only."
+msgstr ""
+
+#: functions/widget-social.php:58
+msgid "Facebook URI"
+msgstr ""
+
+#: functions/widget-social.php:62
+msgid "Behance URI"
+msgstr ""
+
+#: functions/widget-social.php:66
+msgid "Flickr URI"
+msgstr ""
+
+#: functions/widget-social.php:70
+msgid "Google+ URI"
+msgstr ""
+
+#: functions/widget-social.php:74
+msgid "Pinterest URI"
+msgstr ""
+
+#: functions/widget-social.php:78
+msgid "Instagram URI"
+msgstr ""
+
+#: functions/widget-social.php:82
+msgid "Dribbble URI"
+msgstr ""
+
+#: functions/widget-social.php:86
+msgid "Linkedin URI"
+msgstr ""
+
+#: functions/widget-social.php:90
+msgid "Soundcloud URI"
+msgstr ""
+
+#: functions/widget-social.php:94
+msgid "Twitter URI"
+msgstr ""
+
+#: functions/widget-social.php:98
+msgid "Vimeo URI"
+msgstr ""
+
+#: functions/widget-social.php:102
+msgid "StumbleUpon URI"
+msgstr ""
+
+#: functions/widget-social.php:106
+msgid "Tumblr URI"
+msgstr ""
+
+#: functions/widget-social.php:110
+msgid "GitHub URI"
+msgstr ""
+
+#: functions/widget-social.php:114
+msgid "YouTube URI"
+msgstr ""
+
+#: functions/widget-social.php:118
+msgid "FourSquare URI"
+msgstr ""
+
+#: functions/widget-social.php:122
+msgid "Reddit URI"
+msgstr ""
+
+#: functions/widget-social.php:126
+msgid "Dropbox URI"
+msgstr ""
+
+#: functions/widget-social.php:130
+msgid "Skype URI"
+msgstr ""
+
+#: functions/widget-social.php:134
+msgid "Email URI"
+msgstr ""
+
+#: functions/widget-social.php:138
+msgid "RSS URI"
+msgstr ""
+
+#: functions/widget-social.php:145
+msgid "Show profile icons."
+msgstr ""
+
+#: functions/widget-social.php:154
+msgid "%sSocial Profile Icons"
+msgstr ""
+
+#: functions/widget-social.php:172
+msgid "Open links in new window?"
+msgstr ""
+
+#: functions/widget-tweets.php:12
+msgid "%sLatest Tweets"
+msgstr ""
+
+#: functions/widget-tweets.php:13
+msgid "A widget for showing latest tweets in sidebar"
+msgstr ""
+
+#: functions/widget-tweets.php:34
+msgid "Couldn't retrieve tweets! Wrong username?"
+msgstr ""
+
+#: functions/widget-tweets.php:87
+msgid "API Key"
+msgstr ""
+
+#: functions/widget-tweets.php:87
+msgid "API Secret"
+msgstr ""
+
+#: functions/widget-tweets.php:87
+msgid "Access Token"
+msgstr ""
+
+#: functions/widget-tweets.php:88
+msgid "Access Token Secret"
+msgstr ""
+
+#: functions/widget-tweets.php:88
+msgid "Cache Tweets in every"
+msgstr ""
+
+#: functions/widget-tweets.php:88 theme-options.php:240
+msgid "Twitter Username"
+msgstr ""
+
+#: functions/widget-tweets.php:89
+msgid "Number of tweets (max 20)"
+msgstr ""
+
+#: functions/widget-tweets.php:116
+msgid "right now"
+msgstr ""
+
+#: functions/widget-tweets.php:117
+msgid "%s seconds ago"
+msgstr ""
+
+#: functions/widget-tweets.php:118
+msgid "about 1 minute ago"
+msgstr ""
+
+#: functions/widget-tweets.php:119
+msgid "%s minutes ago"
+msgstr ""
+
+#: functions/widget-tweets.php:120
+msgid "about 1 hour ago"
+msgstr ""
+
+#: functions/widget-tweets.php:121
+msgid "%s hours ago"
+msgstr ""
+
+#: functions/widget-tweets.php:122
+msgid "yesterday"
+msgstr ""
+
+#: functions/widget-tweets.php:123
+msgid "%s days ago"
+msgstr ""
+
+#: functions/widget-tweets.php:124
+msgid "over a year ago"
+msgstr ""
+
+#: functions.php:42 theme-options.php:466
+msgid "Header"
+msgstr ""
+
+#: functions.php:43 theme-options.php:579
+msgid "Footer"
+msgstr ""
+
+#: functions.php:44
+msgid "Mobile"
+msgstr ""
+
+#: functions.php:94
+msgid "Web Application Icons"
+msgstr ""
+
+#: functions.php:97
+msgid "Hand Icons"
+msgstr ""
+
+#: functions.php:100
+msgid "Transportation Icons"
+msgstr ""
+
+#: functions.php:103
+msgid "Gender Icons"
+msgstr ""
+
+#: functions.php:106
+msgid "File Type Icons"
+msgstr ""
+
+#: functions.php:109
+msgid "Spinner Icons"
+msgstr ""
+
+#: functions.php:112
+msgid "Form Control Icons"
+msgstr ""
+
+#: functions.php:115
+msgid "Payment Icons"
+msgstr ""
+
+#: functions.php:118
+msgid "Chart Icons"
+msgstr ""
+
+#: functions.php:121
+msgid "Currency Icons"
+msgstr ""
+
+#: functions.php:124
+msgid "Text Editor Icons"
+msgstr ""
+
+#: functions.php:127
+msgid "Directional Icons"
+msgstr ""
+
+#: functions.php:130
+msgid "Video Player Icons"
+msgstr ""
+
+#: functions.php:133
+msgid "Brand Icons"
+msgstr ""
+
+#: functions.php:136
+msgid "Medical Icons"
+msgstr ""
+
+#: functions.php:201
+msgid "Featured Image"
+msgstr ""
+
+#: functions.php:222
+msgid "Not a Featured Post"
+msgstr ""
+
+#: functions.php:340
+msgid "Default sidebar."
+msgstr ""
+
+#: functions.php:350
+msgid "Homepage Widget Area"
+msgstr ""
+
+#: functions.php:351
+msgid "Appears on the homepage, after second or third post"
+msgstr ""
+
+#: functions.php:363
+msgid "Footer %d"
+msgstr ""
+
+#: functions.php:364
+msgid "Appears in the footer."
+msgstr ""
+
+#: functions.php:385
+msgid "Shop Page Sidebar"
+msgstr ""
+
+#: functions.php:386
+msgid "Appears on Shop main page and product archive pages."
+msgstr ""
+
+#: functions.php:394
+msgid "Single Product Sidebar"
+msgstr ""
+
+#: functions.php:395
+msgid "Appears on single product pages."
+msgstr ""
+
+#: functions.php:742
+msgid "Load More"
+msgstr ""
+
+#: functions.php:744
+msgid "No more posts."
+msgstr ""
+
+#: functions.php:830
+msgid "Author"
+msgstr ""
+
+#: functions.php:922 functions.php:942
+msgid "( Edit )"
+msgstr ""
+
+#: functions.php:926 functions.php:946
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:1058
+msgid "Read More"
+msgstr ""
+
+#: functions.php:1138
+msgid "Results"
+msgstr ""
+
+#: functions.php:1138
+msgid "Show all results."
+msgstr ""
+
+#: functions.php:1140
+msgid "No results found."
+msgstr ""
+
+#: functions.php:1312
+msgid "View your shopping cart"
+msgstr ""
+
+#: functions.php:1312
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:1390
+msgid "Custom Gravatar ( /images/gravatar.png )"
+msgstr ""
+
+#: functions.php:1420
+msgid "No Preview"
+msgstr ""
+
+#: header.php:82
+msgid "Menu"
+msgstr ""
+
+#: options/demo-importer/importer/parsers.php:42
+#: options/demo-importer/importer/parsers.php:70
+#: options/demo-importer/importer/parsers.php:78
+#: options/demo-importer/importer/parsers.php:86
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: options/demo-importer/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: options/demo-importer/importer/parsers.php:90
+#: options/demo-importer/importer/parsers.php:95
+#: options/demo-importer/importer/parsers.php:285
+#: options/demo-importer/importer/parsers.php:474
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:259
+#: options/demo-importer/importer/radium-importer.php:745
+msgid "Error on import."
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:267
+msgid ""
+"The XML file containing the dummy content is not available or could not be "
+"read .. You might want to try to set the file permission to chmod 755.<br/"
+">If this doesn't work please use the Wordpress importer and import the XML "
+"file (should be located in your download .zip: Sample Content folder) "
+"manually."
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:289
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:308
+msgid "Importing options..."
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:314
+msgid "Options imported!"
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:318
+msgid "No Options to import."
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:321
+msgid "Something is wrong with options data. Please contact the support."
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:410
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:426
+msgid "Importing widgets..."
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:434
+msgid "Widgets imported!"
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:494
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:516
+msgid "Site does not support widget"
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:539
+msgid "Widget already exists"
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:585
+msgid "Imported"
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:588
+msgid "Imported to Inactive"
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:594
+msgid "No Title"
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:616
+msgid "Deactivating current widgets..."
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:630
+msgid "Widgets deactivated."
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:632
+msgid "No widgets to deactivate."
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:647
+msgid "Created sidebars backup."
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:662
+msgid "Created options backup."
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:675
+msgid "Sidebars restored."
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:687
+msgid "Options restored."
+msgstr ""
+
+#: options/demo-importer/importer/radium-importer.php:703
+msgid "Menu Locations cleared."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:112
+msgid "Importing content..."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:142
+#: options/demo-importer/importer/wordpress-importer.php:151
+#: options/demo-importer/importer/wordpress-importer.php:204
+#: options/demo-importer/importer/wordpress-importer.php:210
+#: options/demo-importer/importer/wordpress-importer.php:221
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:143
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:186
+msgid "Content imported!"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:187
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:211
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:231
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:258
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:287
+msgid "Assign Authors"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:288
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:290
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:300
+msgid "Import Attachments"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:303
+msgid "Download and import file attachments"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:307
+msgid "Submit"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:320
+msgid "Import author:"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:331
+msgid "or create new user with login name:"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:334
+msgid "as a new user:"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:342
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:344
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:345
+msgid "- Select -"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:395
+msgid "User %s imported."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:400
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:437
+msgid "Category %s already exists."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:458
+msgid "Category %s imported."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:464
+msgid "Failed to import category %s"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:501
+msgid "Post tag %s already exists."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:516
+msgid "Post tag %s imported."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:522
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:559
+msgid "%s %s already exists."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:584
+msgid "%s %s imported."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:590
+#: options/demo-importer/importer/wordpress-importer.php:745
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:622
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:645
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:706
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:713
+msgid "%s &#8220;%s&#8221; imported."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:879
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:886
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:939
+msgid "%s menu item added to %s menu"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:954
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:967
+msgid "Invalid file type"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:1025
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:1038
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:1043
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:1049
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:1150
+msgid "Import WordPress"
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:1157
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:1172
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:1173
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:1241
+msgid "Removing previously imported content..."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:1256
+#: options/demo-importer/importer/wordpress-importer.php:1300
+msgid "%s &#8220;%s&#8221; deleted."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:1259
+msgid "%s &#8220;%s&#8221; could not be deleted."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:1278
+msgid "Menu item &#8220;%s&#8221; deleted."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:1281
+msgid "Menu item &#8220;%s&#8221; could not be deleted."
+msgstr ""
+
+#: options/demo-importer/importer/wordpress-importer.php:1309
+msgid "Previous demo content removed."
+msgstr ""
+
+#: options/demo-importer/init.php:114
+msgid "Imported Menus Activated!"
+msgstr ""
+
+#: options/fields/background/field_background.php:60 theme-options.php:278
+#: theme-options.php:286 theme-options.php:294 theme-options.php:318
+#: theme-options.php:326 theme-options.php:328 theme-options.php:336
+#: theme-options.php:344 theme-options.php:352 theme-options.php:354
+#: theme-options.php:361 theme-options.php:363 theme-options.php:370
+#: theme-options.php:457 theme-options.php:473 theme-options.php:489
+#: theme-options.php:497 theme-options.php:587 theme-options.php:606
+#: theme-options.php:639 theme-options.php:648 theme-options.php:849
+#: theme-options.php:857 theme-options.php:865 theme-options.php:889
+msgid "Off"
+msgstr ""
+
+#: options/fields/background/field_background.php:61 theme-options.php:278
+#: theme-options.php:286 theme-options.php:294 theme-options.php:318
+#: theme-options.php:326 theme-options.php:328 theme-options.php:336
+#: theme-options.php:344 theme-options.php:352 theme-options.php:354
+#: theme-options.php:361 theme-options.php:363 theme-options.php:370
+#: theme-options.php:457 theme-options.php:473 theme-options.php:489
+#: theme-options.php:497 theme-options.php:587 theme-options.php:606
+#: theme-options.php:639 theme-options.php:648 theme-options.php:849
+#: theme-options.php:857 theme-options.php:865 theme-options.php:889
+msgid "On"
+msgstr ""
+
+#: options/fields/background/field_background.php:100
+msgid "Background Color:"
+msgstr ""
+
+#: options/fields/background/field_background.php:105
+msgid "Background Image:"
+msgstr ""
+
+#: options/fields/background/field_background.php:109
+msgid "Pattern"
+msgstr ""
+
+#: options/fields/background/field_background.php:113
+msgid "Upload"
+msgstr ""
+
+#: options/fields/background/field_background.php:117
+msgid "Gradient"
+msgstr ""
+
+#: options/fields/background/field_background.php:149
+#: options/fields/upload/field_upload.php:41
+msgid "Browse"
+msgstr ""
+
+#: options/fields/background/field_background.php:150
+#: options/fields/upload/field_upload.php:42
+msgid "Remove Upload"
+msgstr ""
+
+#: options/fields/background/field_background.php:158
+msgid "Background Repeat:"
+msgstr ""
+
+#: options/fields/background/field_background.php:169
+msgid "Background Attachment:"
+msgstr ""
+
+#: options/fields/background/field_background.php:180
+msgid "Background Position:"
+msgstr ""
+
+#: options/fields/background/field_background.php:191
+msgid "Background Size:"
+msgstr ""
+
+#: options/fields/background/field_background.php:209
+#: options/fields/color_gradient/field_color_gradient.php:35
+msgid "From:"
+msgstr ""
+
+#: options/fields/background/field_background.php:212
+msgid "To:"
+msgstr ""
+
+#: options/fields/background/field_background.php:216
+msgid "Direction:"
+msgstr ""
+
+#: options/fields/background/field_background.php:229
+msgid "Parallax Effect:"
+msgstr ""
+
+#: options/fields/cats_multi_select/field_cats_multi_select.php:33
+msgid "Select categories"
+msgstr ""
+
+#: options/fields/cats_multi_select/field_cats_multi_select.php:46
+msgid "Select All"
+msgstr ""
+
+#: options/fields/color_gradient/field_color_gradient.php:38
+msgid " To:"
+msgstr ""
+
+#: options/fields/group/field_group.php:41
+msgid "New"
+msgstr ""
+
+#: options/fields/group/field_group.php:55
+msgid "New "
+msgstr ""
+
+#: options/fields/group/field_group.php:121
+#: options/fields/group/field_group.php:201
+#: options/fields/layout2/field_layout2.php:177
+msgid "OK"
+msgstr ""
+
+#: options/fields/group/field_group.php:122
+#: options/fields/group/field_group.php:202
+#: options/google-typography/google-typography.php:307
+msgid "Delete"
+msgstr ""
+
+#: options/fields/group/field_group.php:207
+msgid "Add"
+msgstr ""
+
+#: options/fields/multi_text/field_multi_text.php:54
+msgid "Add More"
+msgstr ""
+
+#: options/fields/sidebars_select/field_sidebars_select.php:53
+msgid "No Sidebar"
+msgstr ""
+
+#: options/fields/upload/field_upload.php:71
+#: options/fields/upload/field_upload.php:72
+msgid "Select Image"
+msgstr ""
+
+#: options/google-typography/google-typography.php:139
+msgid "Adding A Collection"
+msgstr ""
+
+#: options/google-typography/google-typography.php:140
+msgid ""
+"To add a new font for use on your site. Click the \"Add New\" button on the "
+"top left of the page near the \"Google Typography\" title."
+msgstr ""
+
+#: options/google-typography/google-typography.php:141
+msgid ""
+"Once added, a new font row will appear on the page below. Next you can "
+"continue to customize your font (more info in the \"Customizing\" help tab)."
+msgstr ""
+
+#: options/google-typography/google-typography.php:143
+msgid "Customizing"
+msgstr ""
+
+#: options/google-typography/google-typography.php:144
+msgid ""
+"Customizing fonts is easy; after adding a new font row you can then "
+"customize the following font attributes:"
+msgstr ""
+
+#: options/google-typography/google-typography.php:145
+msgid "Preview Text"
+msgstr ""
+
+#: options/google-typography/google-typography.php:145
+msgid ""
+"Used for live previewing your changes. This text does not appear anywhere on "
+"your website."
+msgstr ""
+
+#: options/google-typography/google-typography.php:145
+msgid "Font Family"
+msgstr ""
+
+#: options/google-typography/google-typography.php:145
+msgid ""
+"The font family to use for this font. Choose from a real-time list of all "
+"available Google Fonts."
+msgstr ""
+
+#: options/google-typography/google-typography.php:145
+msgid "Font Variant"
+msgstr ""
+
+#: options/google-typography/google-typography.php:145
+msgid ""
+"The variant to use for this font. Note: Each font has it's own variant "
+"options."
+msgstr ""
+
+#: options/google-typography/google-typography.php:145
+msgid "Font Size"
+msgstr ""
+
+#: options/google-typography/google-typography.php:145
+msgid "The size you would like this font to be."
+msgstr ""
+
+#: options/google-typography/google-typography.php:145
+msgid "Font Color"
+msgstr ""
+
+#: options/google-typography/google-typography.php:145
+msgid "The color you'd like to use for this font."
+msgstr ""
+
+#: options/google-typography/google-typography.php:145
+#: options/google-typography/google-typography.php:146
+msgid "CSS Selectors"
+msgstr ""
+
+#: options/google-typography/google-typography.php:145
+msgid ""
+"The HTML tags or CSS selectors you'd like this font to apply to (more info "
+"in the \"CSS Selectors\" help tab). You can specify multiple selectors "
+"separated by comma's. Ex: h1, #some_id, .some_class"
+msgstr ""
+
+#: options/google-typography/google-typography.php:147
+msgid ""
+"CSS Selectors are used to hook your font rows into your actual website. Once "
+"you've added, customized, and defined CSS selectors for your fonts, Google "
+"Typography will automatically insert all the necessary CSS into your website."
+msgstr ""
+
+#: options/google-typography/google-typography.php:148
+msgid "Here are some examples of the selectors you can use:"
+msgstr ""
+
+#: options/google-typography/google-typography.php:149
+msgid "IDs"
+msgstr ""
+
+#: options/google-typography/google-typography.php:149
+msgid "#selector"
+msgstr ""
+
+#: options/google-typography/google-typography.php:149
+msgid "Classes:"
+msgstr ""
+
+#: options/google-typography/google-typography.php:149
+msgid ".selector"
+msgstr ""
+
+#: options/google-typography/google-typography.php:149
+msgid "HTML Tags"
+msgstr ""
+
+#: options/google-typography/google-typography.php:149
+msgid "span"
+msgstr ""
+
+#: options/google-typography/google-typography.php:150
+msgid "Example"
+msgstr ""
+
+#: options/google-typography/google-typography.php:150
+msgid "#selector span.date"
+msgstr ""
+
+#: options/google-typography/google-typography.php:178
+msgid "Settings"
+msgstr ""
+
+#: options/google-typography/google-typography.php:291
+#: options/google-typography/google-typography.php:310
+msgid "Theme Typography"
+msgstr ""
+
+#: options/google-typography/google-typography.php:292
+msgid "Loading Your Collections"
+msgstr ""
+
+#: options/google-typography/google-typography.php:293
+msgid "Add New Collection"
+msgstr ""
+
+#: options/google-typography/google-typography.php:294
+msgid "Reset Collections"
+msgstr ""
+
+#: options/google-typography/google-typography.php:295
+msgid "Type in some text to preview..."
+msgstr ""
+
+#: options/google-typography/google-typography.php:296
+msgid "New Collection"
+msgstr ""
+
+#: options/google-typography/google-typography.php:298
+msgid "Preview Background Color"
+msgstr ""
+
+#: options/google-typography/google-typography.php:300
+msgid "Standard Fonts"
+msgstr ""
+
+#: options/google-typography/google-typography.php:301
+msgid "Google Fonts"
+msgstr ""
+
+#: options/google-typography/google-typography.php:302
+msgid "Variant..."
+msgstr ""
+
+#: options/google-typography/google-typography.php:303
+msgid "Size..."
+msgstr ""
+
+#: options/google-typography/google-typography.php:304
+msgid "Fallback:"
+msgstr ""
+
+#: options/google-typography/google-typography.php:305
+msgid "CSS Selectors:"
+msgstr ""
+
+#: options/google-typography/google-typography.php:306
+msgid "Additional CSS:"
+msgstr ""
+
+#: options/google-typography/google-typography.php:308
+msgid "Save"
+msgstr ""
+
+#: options/google-typography/google-typography.php:311
+msgid "Get started in 3 steps."
+msgstr ""
+
+#: options/google-typography/google-typography.php:312
+msgid "1. Pick A Font"
+msgstr ""
+
+#: options/google-typography/google-typography.php:313
+msgid "Choose from any of the 600+ Google Fonts."
+msgstr ""
+
+#: options/google-typography/google-typography.php:314
+msgid "2. Customize It"
+msgstr ""
+
+#: options/google-typography/google-typography.php:315
+msgid "Pick a size, variant, color and more."
+msgstr ""
+
+#: options/google-typography/google-typography.php:316
+msgid "3. Attach It"
+msgstr ""
+
+#: options/google-typography/google-typography.php:317
+msgid "Attach your font to any CSS selector(s)."
+msgstr ""
+
+#: options/google-typography/google-typography.php:321
+msgid "Character sets"
+msgstr ""
+
+#: options/google-typography/google-typography.php:322
+msgid ""
+"Choose the character sets you wish to include. Please note that not all sets "
+"are available for all fonts."
+msgstr ""
+
+#: options/google-typography/google-typography.php:328
+msgid "Latin"
+msgstr ""
+
+#: options/google-typography/google-typography.php:329
+msgid "Latin Extended"
+msgstr ""
+
+#: options/google-typography/google-typography.php:330
+msgid "Cyrillic"
+msgstr ""
+
+#: options/google-typography/google-typography.php:331
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: options/google-typography/google-typography.php:332
+msgid "Greek"
+msgstr ""
+
+#: options/google-typography/google-typography.php:333
+msgid "Greek Extended"
+msgstr ""
+
+#: options/google-typography/google-typography.php:334
+msgid "Vietnamese"
+msgstr ""
+
+#: options/google-typography/google-typography.php:335
+msgid "Khmer"
+msgstr ""
+
+#: options/google-typography/google-typography.php:336
+msgid "Devanagari"
+msgstr ""
+
+#: options/google-typography/google-typography.php:1022
+msgid ""
+"Are you sure you want to revert to the theme's default collections? Note: "
+"You will lose any custom collections you've created."
+msgstr ""
+
+#: options/google-typography/google-typography.php:1023
+msgid "Are you sure you want to delete this collection?"
+msgstr ""
+
+#: options/options.php:56 options/options.php:58
+msgid "Options"
+msgstr ""
+
+#: options/options.php:345
+msgid "Are you sure you want to reset ALL options to default?"
+msgstr ""
+
+#: options/options.php:346
+msgid ""
+"Are you sure you want to import options? All current options will be lost."
+msgstr ""
+
+#: options/options.php:347
+msgid ""
+"Settings have changed, you should save them! Are you sure you want to leave "
+"this page?"
+msgstr ""
+
+#: options/options.php:348
+msgid "Please enter desired child theme name."
+msgstr ""
+
+#: options/options.php:349
+msgid "Importing proccess finished!"
+msgstr ""
+
+#: options/options.php:350
+msgid "Importing proccess failed! Please try again."
+msgstr ""
+
+#: options/options.php:351
+msgid "Removal proccess finished!"
+msgstr ""
+
+#: options/options.php:352
+msgid "Removal proccess failed! Please try again."
+msgstr ""
+
+#: options/options.php:353
+msgid "Reloading page..."
+msgstr ""
+
+#: options/options.php:354
+msgid ""
+"Are you sure you want to import demo options? All current options will be "
+"lost."
+msgstr ""
+
+#: options/options.php:355
+msgid ""
+"Are you sure you want to import demo options and widgets? All current "
+"options will be lost and existing widgets deactivated."
+msgstr ""
+
+#: options/options.php:356
+msgid "Are you sure you want to import demo?"
+msgstr ""
+
+#: options/options.php:357
+msgid ""
+"Are you sure you want to remove demo options, content, menus and widgets? "
+"Please note that all modifications you've made to imported content will be "
+"lost"
+msgstr ""
+
+#: options/options.php:402
+msgid "Invalid Secret for options use"
+msgstr ""
+
+#: options/options.php:403
+msgid "No Option Defined"
+msgstr ""
+
+#: options/options.php:720
+msgid "Settings Imported!"
+msgstr ""
+
+#: options/options.php:722
+msgid "Settings Saved!"
+msgstr ""
+
+#: options/options.php:726
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: options/options.php:727
+msgid "error(s) were found!"
+msgstr ""
+
+#: options/options.php:729
+msgid "warning(s) were found!"
+msgstr ""
+
+#: options/options.php:770
+msgid "Typography"
+msgstr ""
+
+#: options/options.php:778
+msgid "Import / Export"
+msgstr ""
+
+#: options/options.php:793 options/options.php:964
+msgid "Dev Mode Info"
+msgstr ""
+
+#: options/options.php:811
+msgid "Import / Export Options"
+msgstr ""
+
+#: options/options.php:816
+msgid "Preset Options"
+msgstr ""
+
+#: options/options.php:823
+msgid "(imported)"
+msgstr ""
+
+#: options/options.php:834
+msgid "View demo"
+msgstr ""
+
+#: options/options.php:842
+msgid "Import Theme Options"
+msgstr ""
+
+#: options/options.php:843
+msgid "Import Theme Options & Widgets"
+msgstr ""
+
+#: options/options.php:845
+msgid "Remove imported data"
+msgstr ""
+
+#: options/options.php:847
+msgid "Import Theme Options, Widgets & Content"
+msgstr ""
+
+#: options/options.php:859 options/options.php:864
+msgid "Processing, please wait..."
+msgstr ""
+
+#: options/options.php:865
+msgid "Ok"
+msgstr ""
+
+#: options/options.php:873
+msgid "Import Options"
+msgstr ""
+
+#: options/options.php:875
+msgid "Import Code"
+msgstr ""
+
+#: options/options.php:881
+msgid ""
+"Insert your backup code below and hit Import to restore your site options "
+"from a backup."
+msgstr ""
+
+#: options/options.php:889
+msgid "Import"
+msgstr ""
+
+#: options/options.php:897
+msgid "Export Options"
+msgstr ""
+
+#: options/options.php:898
+msgid "Show Export Code"
+msgstr ""
+
+#: options/options.php:923
+msgid "Child Theme"
+msgstr ""
+
+#: options/options.php:925
+msgid ""
+"To create child theme for current theme, enter desired name and hit \"Create "
+"Child Theme\" button"
+msgstr ""
+
+#: options/options.php:931
+msgid "Create Child Theme"
+msgstr ""
+
+#: options/options.php:991
+msgid "Reset to Defaults"
+msgstr ""
+
+#: options/options.php:992
+msgid "Save Changes"
+msgstr ""
+
+#: options/options.php:1219
+msgid "You do not have permission to do this."
+msgstr ""
+
+#: options/options.php:1245
+msgid "Existing child themes for current theme:"
+msgstr ""
+
+#: options/options.php:1252
+msgid "No child themes found for current theme"
+msgstr ""
+
+#: options/validation/color/validation_color.php:15
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: options/validation/comma_numeric/validation_comma_numeric.php:15
+msgid ""
+"You must provide a comma seperated list of numerical values for this option."
+msgstr ""
+
+#: options/validation/date/validation_date.php:15
+msgid "This field must be a valid date."
+msgstr ""
+
+#: options/validation/email/validation_email.php:15
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: options/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: options/validation/no_special_chars/validation_no_special_chars.php:15
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: options/validation/numeric/validation_numeric.php:15
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: options/validation/url/validation_url.php:15
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: search.php:11
+msgid "Search Results for:"
+msgstr ""
+
+#: search.php:31
+msgid ""
+"We apologize for any inconvenience, please hit back on your browser or use "
+"the search form below."
+msgstr ""
+
+#: searchform.php:10
+msgid "What are you looking for?"
+msgstr ""
+
+#: sidebar.php:8 theme-options.php:1068
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:12
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:18
+msgid "Meta"
+msgstr ""
+
+#: single.php:51
+msgid " ago"
+msgstr ""
+
+#: single.php:62 single.php:85
+msgid "Prev Article"
+msgstr ""
+
+#: single.php:63 single.php:86
+msgid "Next Article"
+msgstr ""
+
+#: single.php:95 theme-options.php:792 theme-options.php:822
+msgid "Tags"
+msgstr ""
+
+#: single.php:106
+msgid "About The Author"
+msgstr ""
+
+#: single.php:110
+msgid "More from this Author"
+msgstr ""
+
+#: theme-options.php:24
+msgid "A Section added by hook"
+msgstr ""
+
+#: theme-options.php:25
+msgid ""
+"This is a section created by adding a filter to the sections array, great to "
+"allow child themes, to add/remove sections from the options."
+msgstr ""
+
+#: theme-options.php:77
+msgid "Follow Us on Twitter"
+msgstr ""
+
+#: theme-options.php:82
+msgid "Like us on Facebook"
+msgstr ""
+
+#: theme-options.php:97 theme-options.php:100
+msgid "Theme Options"
+msgstr ""
+
+#: theme-options.php:125
+msgid "Support"
+msgstr ""
+
+#: theme-options.php:126
+msgid ""
+"If you are facing any problem with our theme or theme option panel, head "
+"over to our"
+msgstr ""
+
+#: theme-options.php:130
+msgid "Earn Money"
+msgstr ""
+
+#: theme-options.php:131
+msgid ""
+"Earn 70% commision on every sale by refering your friends and readers. Join "
+"our"
+msgstr ""
+
+#: theme-options.php:209
+msgid "General Settings"
+msgstr ""
+
+#: theme-options.php:210
+msgid ""
+"This tab contains common setting options which will be applied to the whole "
+"theme."
+msgstr ""
+
+#: theme-options.php:215
+msgid "Logo Image"
+msgstr ""
+
+#: theme-options.php:216
+msgid "Upload your logo using the Upload Button or insert image URL."
+msgstr ""
+
+#: theme-options.php:222
+msgid "Favicon"
+msgstr ""
+
+#: theme-options.php:223
+msgid ""
+"Upload a <strong>32 x 32 px</strong> image that will represent your "
+"website's favicon."
+msgstr ""
+
+#: theme-options.php:228
+msgid "Touch icon"
+msgstr ""
+
+#: theme-options.php:229
+msgid ""
+"Upload a <strong>152 x 152 px</strong> image that will represent your "
+"website's touch icon for iOS 2.0+ and Android 2.1+ devices."
+msgstr ""
+
+#: theme-options.php:234
+msgid "Metro icon"
+msgstr ""
+
+#: theme-options.php:235
+msgid ""
+"Upload a <strong>144 x 144 px</strong> image that will represent your "
+"website's IE 10 Metro tile icon."
+msgstr ""
+
+#: theme-options.php:241
+msgid "Enter your Username here."
+msgstr ""
+
+#: theme-options.php:246
+msgid "FeedBurner URL"
+msgstr ""
+
+#: theme-options.php:247
+msgid ""
+"Enter your FeedBurner's URL here, ex: <strong>http://feeds.feedburner.com/"
+"mythemeshop</strong> and your main feed (http://example.com/feed) will get "
+"redirected to the FeedBurner ID entered here.)"
+msgstr ""
+
+#: theme-options.php:253
+msgid "Header Code"
+msgstr ""
+
+#: theme-options.php:254
+msgid ""
+"Enter the code which you need to place <strong>before closing &lt;/head&gt; "
+"tag</strong>. (ex: Google Webmaster Tools verification, Bing Webmaster "
+"Center, BuySellAds Script, Alexa verification etc.)"
+msgstr ""
+
+#: theme-options.php:259
+msgid "Footer Code"
+msgstr ""
+
+#: theme-options.php:260
+msgid ""
+"Enter the codes which you need to place in your footer. <strong>(ex: Google "
+"Analytics, Clicky, STATCOUNTER, Woopra, Histats, etc.)</strong>."
+msgstr ""
+
+#: theme-options.php:265
+msgid "Pagination Type"
+msgstr ""
+
+#: theme-options.php:266
+msgid "Select pagination type."
+msgstr ""
+
+#: theme-options.php:268
+msgid "Default (Next / Previous)"
+msgstr ""
+
+#: theme-options.php:269
+msgid "Numbered (1 2 3 4...)"
+msgstr ""
+
+#: theme-options.php:270
+msgid "AJAX (Load More Button)"
+msgstr ""
+
+#: theme-options.php:271
+msgid "AJAX (Auto Infinite Scroll)"
+msgstr ""
+
+#: theme-options.php:277
+msgid "AJAX Quick search"
+msgstr ""
+
+#: theme-options.php:279
+msgid ""
+"Enable or disable search results appearing instantly below the search form"
+msgstr ""
+
+#: theme-options.php:285
+msgid "Responsiveness"
+msgstr ""
+
+#: theme-options.php:287
+msgid ""
+"MyThemeShop themes are responsive, which means they adapt to tablet and "
+"mobile devices, ensuring that your content is always displayed beautifully "
+"no matter what device visitors are using. Enable or disable responsiveness "
+"using this option."
+msgstr ""
+
+#: theme-options.php:293
+msgid "Right To Left Language Support"
+msgstr ""
+
+#: theme-options.php:295
+msgid "Enable this option for right-to-left sites."
+msgstr ""
+
+#: theme-options.php:301
+msgid "No. of Products"
+msgstr ""
+
+#: theme-options.php:302
+msgid ""
+"Enter the total number of products which you want to show on shop page "
+"(WooCommerce plugin must be enabled)."
+msgstr ""
+
+#: theme-options.php:311
+msgid "Performance"
+msgstr ""
+
+#: theme-options.php:312
+msgid ""
+"This tab contains performance-related options which can help speed up your "
+"website."
+msgstr ""
+
+#: theme-options.php:317
+msgid "Prefetching"
+msgstr ""
+
+#: theme-options.php:319
+msgid ""
+"Enable or disable prefetching. If user is on homepage, then single page will "
+"load faster and if user is on single page, homepage will load faster in "
+"modern browsers."
+msgstr ""
+
+#: theme-options.php:325
+msgid "Lazy Load"
+msgstr ""
+
+#: theme-options.php:327
+msgid ""
+"Delay loading of images outside of viewport, until user scrolls to them."
+msgstr ""
+
+#: theme-options.php:335
+msgid "Lazy load fatured images"
+msgstr ""
+
+#: theme-options.php:337
+msgid "Enable or disable Lazy load of featured images across site."
+msgstr ""
+
+#: theme-options.php:343
+msgid "Lazy load post content images"
+msgstr ""
+
+#: theme-options.php:345
+msgid "Enable or disable Lazy load of images inside post/page content."
+msgstr ""
+
+#: theme-options.php:351
+msgid "Async JavaScript"
+msgstr ""
+
+#: theme-options.php:353
+msgid ""
+"Add <code>async</code> attribute to script tags to improve page download "
+"speed."
+msgstr ""
+
+#: theme-options.php:360
+msgid "Remove ver parameters"
+msgstr ""
+
+#: theme-options.php:362
+msgid ""
+"Remove <code>ver</code> parameter from CSS and JS file calls. It may improve "
+"speed in some browsers which do not cache files having the parameter."
+msgstr ""
+
+#: theme-options.php:369
+msgid "Optimize WooCommerce scripts"
+msgstr ""
+
+#: theme-options.php:371
+msgid ""
+"Load WooCommerce scripts and styles only on WooCommerce pages (WooCommerce "
+"plugin must be enabled)."
+msgstr ""
+
+#: theme-options.php:377
+msgid "Use Cache"
+msgstr ""
+
+#: theme-options.php:378
+msgid ""
+"A <a href=\"%1$s\">cache plugin</a> can increase page download speed "
+"dramatically. We recommend using <a href=\"%2$s\" class=\"thickbox\" title="
+"\"W3 Total Cache\">W3 Total Cache</a> or <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"WP Super Cache\">WP Super Cache</a>."
+msgstr ""
+
+#: theme-options.php:390
+msgid "Styling Options"
+msgstr ""
+
+#: theme-options.php:391
+msgid ""
+"Control the visual appearance of your theme, such as colors, layout and "
+"patterns, from here."
+msgstr ""
+
+#: theme-options.php:396
+msgid "Color Scheme 1"
+msgstr ""
+
+#: theme-options.php:397 theme-options.php:404
+msgid "The theme comes with unlimited color schemes for your theme's styling."
+msgstr ""
+
+#: theme-options.php:403
+msgid "Color Scheme 2"
+msgstr ""
+
+#: theme-options.php:410
+msgid "Layout Style"
+msgstr ""
+
+#: theme-options.php:411
+msgid ""
+"Choose the <strong>default sidebar position</strong> for your site. The "
+"position of the sidebar for individual posts can be set in the post editor."
+msgstr ""
+
+#: theme-options.php:421
+msgid "Site Background"
+msgstr ""
+
+#: theme-options.php:422
+msgid "Set background color, pattern and image from here."
+msgstr ""
+
+#: theme-options.php:450
+msgid "Custom CSS"
+msgstr ""
+
+#: theme-options.php:451
+msgid ""
+"You can enter custom CSS code here to further customize your theme. This "
+"will override the default CSS used on your site."
+msgstr ""
+
+#: theme-options.php:456
+msgid "Lightbox"
+msgstr ""
+
+#: theme-options.php:458
+msgid ""
+"A lightbox is a stylized pop-up that allows your visitors to view larger "
+"versions of images without leaving the current page. You can enable or "
+"disable the lightbox here."
+msgstr ""
+
+#: theme-options.php:467
+msgid "From here, you can control the elements of header section."
+msgstr ""
+
+#: theme-options.php:472
+msgid "Show Logo"
+msgstr ""
+
+#: theme-options.php:474
+msgid "Use this button to Show or Hide <strong>Logo</strong> completely."
+msgstr ""
+
+#: theme-options.php:480
+msgid "Header Search Form"
+msgstr ""
+
+#: theme-options.php:482
+msgid "Use this button to enable <strong>Header Search form</strong>."
+msgstr ""
+
+#: theme-options.php:488
+msgid "Floating Navigation Menu"
+msgstr ""
+
+#: theme-options.php:490
+msgid "Use this button to enable <strong>Floating Navigation Menu</strong>."
+msgstr ""
+
+#: theme-options.php:496
+msgid "Show Navigation Menu"
+msgstr ""
+
+#: theme-options.php:498
+msgid "Use this button to enable <strong>Primary Navigation Menu</strong>."
+msgstr ""
+
+#: theme-options.php:504
+msgid "Show header social icons"
+msgstr ""
+
+#: theme-options.php:506
+msgid "Use this button to show or hide Header Social Icons."
+msgstr ""
+
+#: theme-options.php:511
+msgid "Header Social Icons"
+msgstr ""
+
+#: theme-options.php:512
+msgid "Add Social Media icons in header."
+msgstr ""
+
+#: theme-options.php:514
+msgid "Header Icons"
+msgstr ""
+
+#: theme-options.php:525
+msgid "Icon"
+msgstr ""
+
+#: theme-options.php:535
+msgid "Background Color"
+msgstr ""
+
+#: theme-options.php:536
+msgid "Pick a color for the icon."
+msgstr ""
+
+#: theme-options.php:580
+msgid "From here, you can control the elements of Footer section."
+msgstr ""
+
+#: theme-options.php:585
+msgid "Footer Widgets"
+msgstr ""
+
+#: theme-options.php:586
+msgid "Enable or disable footer widgets with this option."
+msgstr ""
+
+#: theme-options.php:594
+msgid "Footer Widget Columns"
+msgstr ""
+
+#: theme-options.php:595
+msgid "Choose the number of widget areas in the <strong>footer</strong>"
+msgstr ""
+
+#: theme-options.php:597
+msgid "3 Widgets"
+msgstr ""
+
+#: theme-options.php:598
+msgid "4 Widgets"
+msgstr ""
+
+#: theme-options.php:605
+msgid "Show Footer Navigation"
+msgstr ""
+
+#: theme-options.php:607
+msgid ""
+"Use this button to Show or Hide <strong>Footer Navigation</strong> "
+"completely."
+msgstr ""
+
+#: theme-options.php:613
+msgid "Copyrights Text"
+msgstr ""
+
+#: theme-options.php:614
+msgid ""
+"You can change or remove our link from footer and use your own custom text."
+msgstr ""
+
+#: theme-options.php:614
+msgid ""
+"(You can also use your affiliate link to <strong>earn 70% of sales</strong>. "
+"Example: <a href=\"https://mythemeshop.com/go/aff/aff\" target=\"_blank"
+"\">https://mythemeshop.com/?ref=username</a>)"
+msgstr ""
+
+#: theme-options.php:615
+msgid ""
+"Theme by <a href=\"http://mythemeshop.com/\" rel=\"nofollow\">MyThemeShop</a>"
+msgstr ""
+
+#: theme-options.php:621 theme-options.php:1004
+msgid "Homepage"
+msgstr ""
+
+#: theme-options.php:622
+msgid "From here, you can control the elements of the homepage."
+msgstr ""
+
+#: theme-options.php:627
+msgid "Home Layout Style"
+msgstr ""
+
+#: theme-options.php:628
+msgid "Choose the <strong>layout design</strong> for your homepage."
+msgstr ""
+
+#: theme-options.php:638
+msgid "Larger First Post"
+msgstr ""
+
+#: theme-options.php:640
+msgid "<strong>Enable or Disable</strong> larger first post."
+msgstr ""
+
+#: theme-options.php:647
+msgid "Homepage Slider"
+msgstr ""
+
+#: theme-options.php:649
+msgid ""
+"<strong>Enable or Disable</strong> homepage slider with this button. The "
+"slider will show recent articles from the selected categories."
+msgstr ""
+
+#: theme-options.php:656
+msgid "Slider Category(s)"
+msgstr ""
+
+#: theme-options.php:657
+msgid ""
+"Select a category from the drop-down menu, latest articles from this "
+"category will be shown <strong>in the slider</strong>."
+msgstr ""
+
+#: theme-options.php:663 theme-options.php:722
+msgid "Number of posts"
+msgstr ""
+
+#: theme-options.php:664
+msgid "Enter the number of posts to show in the slider"
+msgstr ""
+
+#: theme-options.php:671
+msgid "Custom Slider"
+msgstr ""
+
+#: theme-options.php:672
+msgid ""
+"With this option you can set up a slider with custom image and text instead "
+"of the default slider automatically generated from your posts. (Recommended "
+"width 1170px & height larger than 400px)"
+msgstr ""
+
+#: theme-options.php:673
+msgid "Slider"
+msgstr ""
+
+#: theme-options.php:680
+msgid "Title of the slide"
+msgstr ""
+
+#: theme-options.php:685
+msgid "Image"
+msgstr ""
+
+#: theme-options.php:686
+msgid "Upload or select an image for this slide"
+msgstr ""
+
+#: theme-options.php:691
+msgid "Text"
+msgstr ""
+
+#: theme-options.php:692
+msgid "Description of the slide"
+msgstr ""
+
+#: theme-options.php:696
+msgid "Link"
+msgstr ""
+
+#: theme-options.php:697
+msgid "Insert a link URL for the slide"
+msgstr ""
+
+#: theme-options.php:705
+msgid "Featured Categories"
+msgstr ""
+
+#: theme-options.php:706
+msgid "Select categories appearing on the homepage."
+msgstr ""
+
+#: theme-options.php:707
+msgid "Section"
+msgstr ""
+
+#: theme-options.php:713
+msgid "Category"
+msgstr ""
+
+#: theme-options.php:714
+msgid "Select a category or the latest posts for this section"
+msgstr ""
+
+#: theme-options.php:723
+msgid ""
+"Enter the number of posts to show in this section.<br/><strong>For Latest "
+"Posts</strong>, this setting will be ignored, and number set in <a href=\"%s"
+"\" target=\"_blank\">Settings&nbsp;&gt;&nbsp;Reading</a> will be used "
+"instead."
+msgstr ""
+
+#: theme-options.php:740
+msgid "HomePage Post Meta Info"
+msgstr ""
+
+#: theme-options.php:741
+msgid "Organize how you want the post meta info to appear on the homepage"
+msgstr ""
+
+#: theme-options.php:744 theme-options.php:754 theme-options.php:842
+msgid "Date"
+msgstr ""
+
+#: theme-options.php:745 theme-options.php:755 theme-options.php:793
+#: theme-options.php:842
+msgid "Categories"
+msgstr ""
+
+#: theme-options.php:748 theme-options.php:758 theme-options.php:842
+msgid "Author Name"
+msgstr ""
+
+#: theme-options.php:749 theme-options.php:759 theme-options.php:842
+msgid "Comment Count"
+msgstr ""
+
+#: theme-options.php:768
+msgid "Single Posts"
+msgstr ""
+
+#: theme-options.php:769
+msgid ""
+"From here, you can control the appearance and functionality of your single "
+"posts page."
+msgstr ""
+
+#: theme-options.php:774
+msgid "Single Post Layout"
+msgstr ""
+
+#: theme-options.php:775
+msgid "Customize the look of single posts"
+msgstr ""
+
+#: theme-options.php:779
+msgid "Post Content"
+msgstr ""
+
+#: theme-options.php:790
+msgid "Related Posts Taxonomy"
+msgstr ""
+
+#: theme-options.php:796
+msgid "Related Posts based on tags or categories."
+msgstr ""
+
+#: theme-options.php:803
+msgid "Number of related posts"
+msgstr ""
+
+#: theme-options.php:804
+msgid "Enter the number of posts to show in the related posts section."
+msgstr ""
+
+#: theme-options.php:814
+msgid "Author Box"
+msgstr ""
+
+#: theme-options.php:832
+msgid "Post Meta Info."
+msgstr ""
+
+#: theme-options.php:834
+msgid ""
+"Use this button to Show or Hide Post Meta Info <strong>Author name and "
+"Categories</strong>."
+msgstr ""
+
+#: theme-options.php:840
+msgid "Meta Info to Show"
+msgstr ""
+
+#: theme-options.php:841
+msgid "Choose What Meta Info to Show."
+msgstr ""
+
+#: theme-options.php:848
+msgid "Breadcrumbs"
+msgstr ""
+
+#: theme-options.php:850
+msgid ""
+"Breadcrumbs are a great way to make your site more user-friendly. You can "
+"enable them by checking this box."
+msgstr ""
+
+#: theme-options.php:856
+msgid "Highlight Author Comment"
+msgstr ""
+
+#: theme-options.php:858
+msgid "Use this button to highlight author comments."
+msgstr ""
+
+#: theme-options.php:864
+msgid "Date in Comments"
+msgstr ""
+
+#: theme-options.php:866
+msgid "Use this button to show the date for comments."
+msgstr ""
+
+#: theme-options.php:873
+msgid "Social Buttons"
+msgstr ""
+
+#: theme-options.php:874
+msgid ""
+"Enable or disable social sharing buttons on single posts using these buttons."
+msgstr ""
+
+#: theme-options.php:879
+msgid "Social Sharing Buttons Position"
+msgstr ""
+
+#: theme-options.php:880
+msgid "Above Content"
+msgstr ""
+
+#: theme-options.php:880
+msgid "Below Content"
+msgstr ""
+
+#: theme-options.php:880
+msgid "Both"
+msgstr ""
+
+#: theme-options.php:880
+msgid "Floating"
+msgstr ""
+
+#: theme-options.php:881
+msgid "Choose position for Social Sharing Buttons."
+msgstr ""
+
+#: theme-options.php:888
+msgid "Social Sharing Buttons on Pages"
+msgstr ""
+
+#: theme-options.php:890
+msgid "Enable the sharing buttons for pages too, not just posts."
+msgstr ""
+
+#: theme-options.php:896
+msgid "Social Media Buttons"
+msgstr ""
+
+#: theme-options.php:897
+msgid ""
+"Organize how you want the social sharing buttons to appear on single posts"
+msgstr ""
+
+#: theme-options.php:900 theme-options.php:913
+msgid "Facebook Like"
+msgstr ""
+
+#: theme-options.php:901 theme-options.php:914
+msgid "Google Plus"
+msgstr ""
+
+#: theme-options.php:902 theme-options.php:915
+msgid "Twitter"
+msgstr ""
+
+#: theme-options.php:903 theme-options.php:916
+msgid "Reddit"
+msgstr ""
+
+#: theme-options.php:904 theme-options.php:917
+msgid "Pinterest"
+msgstr ""
+
+#: theme-options.php:905 theme-options.php:918
+msgid "StumbleUpon"
+msgstr ""
+
+#: theme-options.php:930
+msgid "Ad Management"
+msgstr ""
+
+#: theme-options.php:931
+msgid ""
+"Now, ad management is easy with our options panel. You can control "
+"everything from here, without using separate plugins."
+msgstr ""
+
+#: theme-options.php:936
+msgid "Header Ad"
+msgstr ""
+
+#: theme-options.php:937
+msgid "This Ad will appear just after header menu. Recommended size: 728x90."
+msgstr ""
+
+#: theme-options.php:942
+msgid "Below Post Title"
+msgstr ""
+
+#: theme-options.php:943
+msgid ""
+"Paste your Adsense, BSA or other ad code here to show ads below your article "
+"title on single posts."
+msgstr ""
+
+#: theme-options.php:948 theme-options.php:964
+msgid "Show After X Days"
+msgstr ""
+
+#: theme-options.php:949
+msgid ""
+"Enter the number of days after which you want to show the Below Post Title "
+"Ad. Enter 0 to disable this feature."
+msgstr ""
+
+#: theme-options.php:958
+msgid "Below Post Content"
+msgstr ""
+
+#: theme-options.php:959
+msgid ""
+"Paste your Adsense, BSA or other ad code here to show ads below the post "
+"content on single posts."
+msgstr ""
+
+#: theme-options.php:965
+msgid ""
+"Enter the number of days after which you want to show the Below Post Content "
+"Ad. Enter 0 to disable this feature."
+msgstr ""
+
+#: theme-options.php:975
+msgid "Sidebars"
+msgstr ""
+
+#: theme-options.php:976
+msgid ""
+"Now you have full control over the sidebars. Here you can manage sidebars "
+"and select one for each section of your site, or select a custom sidebar on "
+"a per-post basis in the post editor."
+msgstr ""
+
+#: theme-options.php:981
+msgid "Custom Sidebars"
+msgstr ""
+
+#: theme-options.php:982
+msgid ""
+"Add custom sidebars. <strong style=\"font-weight: 800;\">You need to save "
+"the changes to use the sidebars in the dropdowns below.</strong><br />You "
+"can add content to the sidebars in Appearance &gt; Widgets."
+msgstr ""
+
+#: theme-options.php:990
+msgid "Example: Homepage Sidebar"
+msgstr ""
+
+#: theme-options.php:995
+msgid "ID"
+msgstr ""
+
+#: theme-options.php:996
+msgid ""
+"Enter a unique ID for the sidebar. Use only alphanumeric characters, "
+"underscores (_) and dashes (-), eg. \"sidebar-home\""
+msgstr ""
+
+#: theme-options.php:1005
+msgid "Select a sidebar for the homepage."
+msgstr ""
+
+#: theme-options.php:1012
+msgid "Single Post"
+msgstr ""
+
+#: theme-options.php:1013
+msgid ""
+"Select a sidebar for the single posts. If a post has a custom sidebar set, "
+"it will override this."
+msgstr ""
+
+#: theme-options.php:1020
+msgid "Single Page"
+msgstr ""
+
+#: theme-options.php:1021
+msgid ""
+"Select a sidebar for the single pages. If a page has a custom sidebar set, "
+"it will override this."
+msgstr ""
+
+#: theme-options.php:1028
+msgid "Archive"
+msgstr ""
+
+#: theme-options.php:1029
+msgid ""
+"Select a sidebar for the archives. Specific archive sidebars will override "
+"this setting (see below)."
+msgstr ""
+
+#: theme-options.php:1036
+msgid "Category Archive"
+msgstr ""
+
+#: theme-options.php:1037
+msgid "Select a sidebar for the category archives."
+msgstr ""
+
+#: theme-options.php:1044
+msgid "Tag Archive"
+msgstr ""
+
+#: theme-options.php:1045
+msgid "Select a sidebar for the tag archives."
+msgstr ""
+
+#: theme-options.php:1052
+msgid "Date Archive"
+msgstr ""
+
+#: theme-options.php:1053
+msgid "Select a sidebar for the date archives."
+msgstr ""
+
+#: theme-options.php:1060
+msgid "Author Archive"
+msgstr ""
+
+#: theme-options.php:1061
+msgid "Select a sidebar for the author archives."
+msgstr ""
+
+#: theme-options.php:1069
+msgid "Select a sidebar for the search results."
+msgstr ""
+
+#: theme-options.php:1076
+msgid "404 Error"
+msgstr ""
+
+#: theme-options.php:1077
+msgid "Select a sidebar for the 404 Not found pages."
+msgstr ""
+
+#: theme-options.php:1085
+msgid "Shop Pages"
+msgstr ""
+
+#: theme-options.php:1086
+msgid ""
+"Select a sidebar for Shop main page and product archive pages (WooCommerce "
+"plugin must be enabled). Default is <strong>Shop Page Sidebar</strong>."
+msgstr ""
+
+#: theme-options.php:1093
+msgid "Single Product"
+msgstr ""
+
+#: theme-options.php:1094
+msgid ""
+"Select a sidebar for single products (WooCommerce plugin must be enabled). "
+"Default is <strong>Single Product Sidebar</strong>."
+msgstr ""
+
+#: theme-options.php:1107
+msgid "Navigation"
+msgstr ""
+
+#: theme-options.php:1108
+msgid ""
+"Navigation settings can now be modified from the <a href=\"nav-menus.php"
+"\"><b>Menus Section</b></a>."
+msgstr ""
+
+#: theme-options.php:1113
+msgid "Homepage (Primary)"
+msgstr ""
+
+#: theme-options.php:1114
+msgid "Select a primary navbar for the homepage."
+msgstr ""
+
+#: theme-options.php:1120
+msgid "Homepage (Mobile)"
+msgstr ""
+
+#: theme-options.php:1121
+msgid "Select a mobile navbar for the homepage."
+msgstr ""
+
+#: theme-options.php:1127
+msgid "Single Post (Primary)"
+msgstr ""
+
+#: theme-options.php:1128
+msgid ""
+"Select a primary navbar for the single posts. If a post has a custom primary "
+"navbar set, it will override this."
+msgstr ""
+
+#: theme-options.php:1134
+msgid "Single Post (Mobile)"
+msgstr ""
+
+#: theme-options.php:1135
+msgid ""
+"Select a mobile navbar for the single posts. If a post has a custom mobile "
+"navbar set, it will override this."
+msgstr ""
+
+#: theme-options.php:1141
+msgid "Single Page (Primary)"
+msgstr ""
+
+#: theme-options.php:1142
+msgid ""
+"Select a primary navbar for the single pages. If a page has a custom primary "
+"navbar set, it will override this."
+msgstr ""
+
+#: theme-options.php:1148
+msgid "Single Page (Mobile)"
+msgstr ""
+
+#: theme-options.php:1149
+msgid ""
+"Select a mobile navbar for the single pages. If a page has a custom mobile "
+"navbar set, it will override this."
+msgstr ""
+
+#: theme-options.php:1155
+msgid "Archive (Primary)"
+msgstr ""
+
+#: theme-options.php:1156
+msgid ""
+"Select a primary navbar for the archives. Specific archive navbars will "
+"override this setting (see below)."
+msgstr ""
+
+#: theme-options.php:1162
+msgid "Archive (Mobile)"
+msgstr ""
+
+#: theme-options.php:1163
+msgid ""
+"Select a mobile navbar for the archives. Specific archive navbars will "
+"override this setting (see below)."
+msgstr ""
+
+#: theme-options.php:1169
+msgid "Category Archive (Primary)"
+msgstr ""
+
+#: theme-options.php:1170
+msgid "Select a primary navbar for the category archives."
+msgstr ""
+
+#: theme-options.php:1176
+msgid "Category Archive (Mobile)"
+msgstr ""
+
+#: theme-options.php:1177
+msgid "Select a mobile navbar for the category archives."
+msgstr ""
+
+#: theme-options.php:1183
+msgid "Tag Archive (Primary)"
+msgstr ""
+
+#: theme-options.php:1184
+msgid "Select a primary navbar for the tag archives."
+msgstr ""
+
+#: theme-options.php:1190
+msgid "Tag Archive (Mobile)"
+msgstr ""
+
+#: theme-options.php:1191
+msgid "Select a mobile navbar for the tag archives."
+msgstr ""
+
+#: theme-options.php:1197
+msgid "Date Archive (Primary)"
+msgstr ""
+
+#: theme-options.php:1198
+msgid "Select a primary navbar for the date archives."
+msgstr ""
+
+#: theme-options.php:1204
+msgid "Date Archive (Mobile)"
+msgstr ""
+
+#: theme-options.php:1205
+msgid "Select a mobile navbar for the date archives."
+msgstr ""
+
+#: theme-options.php:1211
+msgid "Author Archive (Primary)"
+msgstr ""
+
+#: theme-options.php:1212
+msgid "Select a primary navbar for the author archives."
+msgstr ""
+
+#: theme-options.php:1218
+msgid "Author Archive (Mobile)"
+msgstr ""
+
+#: theme-options.php:1219
+msgid "Select a mobile navbar for the author archives."
+msgstr ""
+
+#: theme-options.php:1225
+msgid "Search (Primary)"
+msgstr ""
+
+#: theme-options.php:1226
+msgid "Select a primary navbar for the search results."
+msgstr ""
+
+#: theme-options.php:1232
+msgid "Search (Mobile)"
+msgstr ""
+
+#: theme-options.php:1233
+msgid "Select a mobile navbar for the search results."
+msgstr ""
+
+#: theme-options.php:1239
+msgid "404 Error (Primary)"
+msgstr ""
+
+#: theme-options.php:1240
+msgid "Select a primary navbar for the 404 Not found pages."
+msgstr ""
+
+#: theme-options.php:1246
+msgid "404 Error (Mobile)"
+msgstr ""
+
+#: theme-options.php:1247
+msgid "Select a mobile navbar for the 404 Not found pages."
+msgstr ""
+
+#: theme-options.php:1253
+msgid "Shop Pages (Primary)"
+msgstr ""
+
+#: theme-options.php:1254
+msgid ""
+"Select a primary navbar for Shop main page and product archive pages "
+"(WooCommerce plugin must be enabled)."
+msgstr ""
+
+#: theme-options.php:1260
+msgid "Shop Pages (Mobile)"
+msgstr ""
+
+#: theme-options.php:1261
+msgid ""
+"Select a mobile navbar for Shop main page and product archive pages "
+"(WooCommerce plugin must be enabled)."
+msgstr ""
+
+#: theme-options.php:1267
+msgid "Single Product (Primary)"
+msgstr ""
+
+#: theme-options.php:1268
+msgid ""
+"Select a primary navbar for single products (WooCommerce plugin must be "
+"enabled)."
+msgstr ""
+
+#: theme-options.php:1274
+msgid "Single Product (Mobile)"
+msgstr ""
+
+#: theme-options.php:1275
+msgid ""
+"Select a mobile navbar for single products (WooCommerce plugin must be "
+"enabled)."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "SociallyViral Pro by MyThemeShop"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://mythemeshop.com/themes/sociallyviral/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"SociallyViral is an engaging WordPress theme that is designed to help boost "
+"social shares and get you more viral traffic from the web's top social media "
+"websites."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://mythemeshop.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Contact Page"
+msgstr ""

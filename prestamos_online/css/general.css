@@ -1,0 +1,265 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+	height: 100%;
+	margin: 0px;
+	width: auto;
+	background: #D9D9D9;
+	color: #ffffff;
+}
+
+img{
+	border:0px;
+}
+
+
+.clear
+{
+	clear: both;
+}
+
+.centra980
+{
+	width: 979px;
+	margin: auto;
+	background: #fff;
+}
+
+#banner
+{
+	height: 455px;
+}
+
+#globos
+{
+	position: absolute;
+	margin: -40px 0px 0px 0px;
+}
+
+#formulario
+{
+	width: 255px;
+	height: 418px;
+	background: #F6EC37;
+	position: absolute;
+	margin: 30px 0px 0px 705px;
+	color: #EF4623;
+}
+
+#botones
+{
+	position: absolute;
+	width: 350px;
+	margin: 0px 0px 0px 360px;
+}
+
+#boton1
+{
+	margin-bottom: -9px;
+	width: 345px;
+	height: 85px;
+	background: url('../imagenes/boton1.png');
+	color: #ffffff;
+}
+
+#boton1 div
+{
+	font-size: 17px;
+	padding: 30px 0px 0px 110px;
+}
+
+#boton2
+{
+	margin-bottom: -9px;
+	width: 345px;
+	height: 85px;
+	background: url('../imagenes/boton2.png');
+	color: #ffffff;
+}
+
+#boton2 div
+{
+	font-size: 17px;
+	padding: 30px 0px 0px 130px;
+}
+
+#boton3
+{
+	width: 345px;
+	height: 85px;
+	background: url('../imagenes/boton3.png');
+	color: #ffffff;
+}
+
+#boton3 div
+{
+	font-size: 17px;
+	padding: 22px 0px 0px 165px;
+}
+
+.boton_enviar_personalizado {
+	width: 240px;
+	height: 50px;
+	padding: 0;
+	border: 0;
+	background: transparent url('../imagenes/solicitar_prestamo.png') no-repeat center top;
+	/* text-indent: -2000em; */
+	cursor: pointer; /* hand-shaped cursor */
+	cursor: hand; /* for IE 5.x */
+	margin: 0px 0px 0px 0px;
+}
+
+#tabla_contacto
+{
+	padding: 20px 0px 0px 12px;
+	*margin: 20px 0px 0px 12px;
+}
+
+
+#tabla_contacto tr td
+{
+	padding-bottom: 10px;
+}
+
+
+.campo_contacto
+{
+	width: 207px;
+	height: 22px;
+	border: 1px solid #EDB13A;
+}
+
+#titulo_beneficios
+{
+	font-size: 27px;
+	font-weight: bold;
+	color: #1D65AE;
+	margin-left: 25px;
+}
+
+#iconos_beneficios
+{
+	background: #E0E0DF;
+	padding: 10px 0px 15px 0px;
+	margin-top: 10px;
+}
+
+.icono
+{
+	width: 310px;
+	height: 95px;
+	float: left;
+	margin: 10px 0px 0px 10px;
+}
+
+.imagen_icono
+{
+	width: 110px;
+	float: left;
+}
+
+.texto_icono
+{
+	width: 180px;
+	float: left;
+	font-size: 11px;
+	margin-top: 5px;
+	color: #0D73BB;
+}
+
+.texto_icono a
+{
+	font-weight: 700;
+	font-size: 17px;
+}
+
+#estamos_en
+{
+	font-size: 15px;
+	color: #1D65AE;
+	font-weight: bold;
+	margin-left: 25px;
+}
+
+.ubicacion
+{
+	background: #FDEB00;
+	color: #1D65AE;
+	font-size: 14px;
+	margin-left: 7px;
+}
+
+#franja_celeste_pie
+{
+	background: #1898D5;
+	width: 961px;
+	height: 36px;
+	color: #F6EC37;
+	padding-top: 7px;
+	margin-top: -4px;
+}
+
+#franja_celeste_pie div
+{
+	width: 312px;
+	float: left;
+}
+
+#web_pie a
+{
+	text-decoration: none;
+	color: #F6EC37;
+	font-size: 18px;
+}
+
+#mail_pie a
+{
+	text-decoration: none;
+	color: #F6EC37;
+	font-size: 18px;
+}
+
+#web_pie
+{
+	padding-top: 2px;
+	text-align: center;
+}
+
+#mail_pie
+{
+	padding-top: 2px;
+	text-align: right;
+}
+
+
+
+
+#titulo_n
+{
+	color: #434243;
+	font-size: 14px;
+	text-align: center;
+	margin: 30px 0px 20px 0px;
+}
+
+#titulo_n span
+{
+	color: #60a2da;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.item_info
+{
+	width: 30%;
+	float: left;
+	color: #434243;
+	margin: 0px 1% 30px 1%;
+	font-size: 13px;
+	line-height: 19px;
+}
+
+.descripcion_item
+{
+	padding: 0px 15px;
+	margin-top: 10px;
+}

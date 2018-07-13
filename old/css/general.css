@@ -1,0 +1,620 @@
+body{
+	font-family: "Trebuchet MS",Helvetica,Jamrul,sans-serif;
+	height: 100%;
+	margin: 0px;
+	width: auto;
+	background: #D9D9D9;
+	color: #ffffff;
+}
+
+img{
+	border:0px;
+}
+
+
+.clear
+{
+	clear: both;
+}
+
+.centra_web
+{
+	width: 985px;
+	margin: auto;
+	position: relative;
+	z-index: 997;
+}
+
+#data_fiscal
+{
+	position: fixed;
+	bottom: -5px;
+	right: 5px;
+	z-index: 1;
+}
+
+#cabecera
+{
+	width: 982px;
+	height: 125px;
+	margin: auto;
+	background: #00A6E9;
+}
+
+#cabecera #logo
+{
+	padding: 5px 0px 0px 0px;
+	width: 450px;
+	float: left;
+}
+
+#cabecera #derecha_cabecera
+{
+	width: 370px;
+	float: right;
+	margin: 0px 20px 0px 0px;
+}
+
+#izquierda_derecha_cabecera
+{
+	width: 300px;
+	float: left;
+}
+
+#derecha_derecha_cabecera
+{
+	width: 60px;
+	float: right;
+}
+
+#derecha_derecha_cabecera img
+{
+	margin-top: 15px;
+}
+
+#clientes_cabecera
+{
+	position: absolute;
+	margin: 0px 0px 0px 135px;
+}
+
+#menu
+{
+	width: 982px;
+	height: 41px;
+	background: url('../imagenes/fondo_menu.png');
+	position: relative;
+	z-index: 997;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#menu #centra_menu
+{
+	padding: 9px 0px 0px 15px;
+}
+
+#menu a
+{
+	text-decoration: none;
+	color: #ffffff;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#menu a:hover
+{
+	color: #F7EC35;
+}
+
+#menu_pie
+{
+	width: 690px;
+	margin: 5px auto 0px auto;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#menu_pie a
+{
+	text-decoration: none;
+	color: #ffffff;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#menu_pie a:hover
+{
+	color: #F7EC35;
+}
+
+.contenedor_web
+{
+	width: 952px;
+	margin: auto;
+	background: #ffffff;
+	margin-top: -10px;
+}
+
+#logos_rotativos
+{
+	width: 985px;
+	height: 126px;
+	background: url('../imagenes/fondo_logos.png');
+	margin-top: -15px;
+}
+/* HOME */
+#contiene_home
+{
+	width: 922px;
+	margin: 10px auto 10px auto;
+}
+
+#izquierda_home
+{
+	width: 452px;
+	float: left;
+}
+
+#derecha_home
+{
+	width: 452px;
+	float: right;
+}
+/* FIN HOME */
+
+.titulos_secciones
+{
+	margin-top: -8px;
+	position: relative;
+	z-index: 997;
+}
+
+.selector_argenpesos
+{
+	position: absolute;
+	margin: 0px 0px 0px 800px;
+}
+/* PREGUNTAS FRECUENTES */
+.titulos_preguntas_frecuentes
+{
+	font-size: 16px;
+	font-weight: bold;
+	background: #F9EC35;
+	padding: 0px 0px 0px 0px;
+}
+
+.titulos_preguntas_frecuentes_azul
+{
+	font-size: 16px;
+	font-weight: bold;
+	background: #0099DC;
+	padding: 0px 0px 0px 0px;
+}
+
+#contiene_preguntas_frecuentes
+{
+	color: #212121;
+	width: 720px;
+	margin: 0px 0px 0px 60px;
+	padding: 40px 0px 40px 0px;
+}
+
+#pf_pedilo_ahora
+{
+	width: 922px;
+	margin: auto;
+}
+/* FIN PREGUNTAS FRECUENTES */
+
+/* COMO FUNCIONA */
+.titulos_como_funciona
+{
+	font-size: 39px;
+	font-weight: bold;
+	color: #008BC8;
+	border-bottom: 1px dotted #1C65AC;
+	margin-left: 45px;
+}
+/* FIN COMO FUNCIONA */
+
+/* CLIENTES */
+.titulos_clientes
+{
+	font-size: 29px;
+	font-weight: bold;
+	color: #ffffff;
+	border-bottom: 1px dotted #ffffff;
+}
+
+.centra_contenido_clientes
+{
+	width: 885px;
+	margin: 0px auto 0px auto;
+	padding-top: 35px;
+}
+
+#fondo_celeste
+{
+	width: 953px;
+	height: 306px;
+	background: url('../imagenes/clientes/fondoceleste.jpg');
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#fondo_verde
+{
+	width: 953px;
+	height: 306px;
+	background: url('../imagenes/clientes/fondoverde.jpg');
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#fondo_naranja
+{
+	width: 953px;
+	height: 306px;
+	background: url('../imagenes/clientes/fondonaranja.jpg');
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.campo_naranja_clientes
+{
+	width: 460px;
+	height: 20px;
+	color: #005AA4;
+}
+
+#boton_enviar_naranja
+{
+	background: #F15A24;
+	color: #ffffff;
+	border: 0px;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+#boton_enviar_naranja:hover
+{
+	color: #C1272D;
+}
+
+#boton_enviar_verde
+{
+	background: #39B54A;
+	color: #ffffff;
+	border: 0px;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+#boton_enviar_verde:hover
+{
+	color: #006837;
+}
+/* FIN CLIENTES */
+/* SUCURSALES */
+/* SUCURSALES */
+.contiene_sucursal
+{
+	width: 920px;
+	margin: auto;
+}
+
+#menu_puntos_de_venta
+{
+	width: 780px;
+	margin: auto;
+}
+
+.item_menu
+{
+	width: 145px;
+	text-align: center;
+	font-size: 16px;
+	color: #008BC8;
+	float: left;
+	border-right: 1px solid #1C63AE;
+	margin-top: 5px;
+}
+
+.item_menu a
+{
+	text-decoration: none;
+	cursor: pointer;
+	background: #FFEC00;
+	padding: 0px 4px;
+	font-size: 17px;
+}
+
+.item_menu a:visited
+{
+	color: #1C63AE;
+}
+
+.item_menu a:hover
+{
+	color: #003C51 ;
+}
+
+.item_menu a .marcado
+{
+	color: #FF2B00 ;
+}
+
+
+.titulos_puntos_de_venta
+{
+	font-size: 16px;
+	color: #1C63AE;
+	margin: 0px 0px 0px 20px;
+	padding-top: 60px;
+}
+
+.titulos_puntos_de_venta a
+{
+	font-size: 14px;
+	color: #707070;
+}
+
+.izquierda_puntos_de_venta
+{
+	width: 420px;
+	float: left;
+	margin: 15px 0px 10px 20px;
+}
+
+.derecha_puntos_de_venta
+{
+	width: 450px;
+	float: right;
+}
+
+.miniaturas_puntos_de_venta
+{
+	width: 105px;
+}
+
+.miniaturas_puntos_de_venta a
+{
+	cursor: pointer;
+}
+
+.miniaturas_puntos_de_venta img
+{
+	margin-bottom: 4px;
+}
+/* FIN SUCURSALES */
+/* CONTACTO */
+#contiene_contacto
+{
+	background: #1C63AE;
+	padding-top: 10px;
+}
+
+#izquierda_contacto
+{
+	width: 460px;
+	float: left;
+	padding: 20px 0px 0px 50px;
+}
+
+#titulo_contacto
+{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#derecha_contacto
+{
+	width: 415px;
+	float: right;
+	padding: 10px 0px 0px 0px;
+}
+
+.punto_contacto
+{
+	border-bottom: 1px dotted #FFEC00;
+	font-size: 13px;
+	font-weight: bold;
+	font-style: italic;
+	width: 270px;
+	padding-bottom: 5px;
+	margin: 0px 0px 8px 0px;
+}
+
+.punto_contacto a
+{
+	color: #F9EC35;
+}
+
+.campo_contacto
+{
+	width: 423px;
+	height: 20px;
+	color: #005AA4;
+}
+
+#boton_enviar_contacto
+{
+	background: #1C63AE;
+	color: #ffffff;
+	font-size: 18px;
+	border: 0px;
+	cursor: pointer;
+}
+
+#boton_enviar_contacto:hover
+{
+	color: #F9EC35;
+}
+
+.boton_enviar_solicitud
+{
+	background: #FFEC00;
+	color: #37A8DB;
+	font-size: 25px;
+	border: 0px;
+	cursor: pointer;
+}
+
+.boton_enviar_solicitud:hover
+{
+	color: #FFEC00;
+	background: #37A8DB;
+	font-size: 25px;
+}
+
+#selector_argenpesos_contacto
+{
+	position: absolute;
+	margin: -10px 0px 0px 850px;
+}
+/* FIN CONTACTO */
+/* SUMATE */
+#contiene_sumate
+{
+	width: 875px;
+	margin: auto;
+	padding: 15px 0px 15px 0px;
+}
+
+.titulo_formulario_sumate
+{
+	background: #1C63AE;
+	padding: 5px 0px 5px 20px;
+	font-size: 18px;
+}
+
+.contiene_formulario_sumate
+{
+	background: #A3C4E4;
+	color: #005AA4;
+}
+.campo_sumate
+{
+	width: 240px;
+	color: #005AA4;
+}
+
+#boton_enviar_sumate
+{
+	background: #A3C4E4;
+	color: #005AA4;
+	font-size: 18px;
+	border: 0px;
+	cursor: pointer;
+}
+
+#boton_enviar_sumate:hover
+{
+	color: #ffffff;
+}
+
+/* FIN SUMATE */
+/* PRODUCTOS */
+#producto1
+{
+	background: #37A8DB;
+}
+
+#producto2
+{
+	background: #F6CE1C;
+}
+
+#producto3
+{
+	background: #E64E13;
+}
+
+#producto4
+{
+	background: #DF007A;
+}
+
+#producto5
+{
+	background: #0070B7;
+}
+
+#producto6
+{
+	background: #4D2581;
+}
+
+#producto7
+{
+	background: #75AB25;
+}
+/* FIN PRODUCTOS */
+/* FORMULARIO CREDITOS */
+.campo_form_credito
+{
+	width: 200px;
+}
+
+#tabla_solicitud_credito
+{
+	color: #333;
+	text-align: left;
+	width: 720px;
+	margin: auto;
+	font-size: 15px;
+	background: #ffffff;
+	padding: 10px 20px;
+}
+/* FIN FORM CREDITOS */
+
+
+/* FORMULARIO NUEVO */
+#tabla_contacto_nuevo
+{
+	color: #0D73BB;
+	margin: auto;
+	width: 270px;
+}
+
+#tabla_contacto_nuevo tr td
+{
+	padding-bottom: 10px;
+}
+
+.campo_contacto_nuevo
+{
+	width: 250px;
+	height: 22px;
+	border: 1px solid #EDB13A;
+}
+
+.boton_enviar_personalizado_nuevo {
+	width: 240px;
+	height: 50px;
+	padding: 0;
+	border: 0;
+	background: transparent url('../imagenes/solicitar_prestamo.png') no-repeat center top;
+	/* text-indent: -2000em; */
+	cursor: pointer; /* hand-shaped cursor */
+	cursor: hand; /* for IE 5.x */
+	margin: 0px 0px 0px 0px;
+}
+
+#click2call a:hover {
+    opacity: 0.5;
+}
+#click2call_callbtn img {
+    height: 100px;
+}
+#click2call_hupbtn img {
+    height: 100px;
+}
+#click2call_msgdiv {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* FIN */

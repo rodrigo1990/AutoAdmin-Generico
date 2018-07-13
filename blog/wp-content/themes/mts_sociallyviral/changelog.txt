@@ -1,0 +1,601 @@
+﻿v2.1.12 (Jun 08, 2017)
+-----------------------------
+- Fix Twitter social sharing button issue on iOS
+
+Files updated:
+- functions.php
+- functions/theme-actions.php
+- style.css
+
+v2.1.11 (Jun 01, 2017)
+-----------------------------
+- Replaced deprecated WooCommerce functions
+- Added support for new WooCommerce Zoom & Slider effect in the single products
+
+Files updated:
+- style.css
+- functions.php
+- css/woocommerce2.css
+- woocommerce/archive-product.php
+- woocommerce/single-product.php
+
+
+v2.1.10 (Apr 08, 2017)
+-----------------------------
+- Include Support tab in Theme Options Panel
+- Fixed Schema Issue
+- Fixed wrong background field constructor args in the Options Panel
+- Load typography scripts only on theme options page
+
+Files updated:
+- style.css
+- functions.php
+- theme-options.php
+- options/support.php
+- options/options.php 
+- options/css/options.css
+- options/js/clipboard.min.js
+- options/js/help.js
+- options/fields/background/field_background.php 
+- options/fields/group/field_group.php 
+- options/google-typography/google-typography.php 
+
+v2.1.9 (Mar 30, 2017)
+-----------------------------
+- Fix PHP7 notices in the footer section
+
+Files updated:
+- functions.php
+- functions/theme-actions.php
+- style.css
+
+v2.1.8 (Mar 29, 2017)
+-----------------------------
+- Fix PHP7 notices on the theme options page
+
+Files updated:
+- functions.php
+- options/fields/background/field_background.php
+- options/fields/group/field_group.php
+- options/options.php
+- style.css
+
+v2.1.7 (Mar 03, 2017)
+-----------------------------
+- Improved internalization
+
+Files updated:
+- functions.php
+- lang/sociallyviral.pot
+- style.css
+
+v2.1.6 (Feb 23, 2017)
+-----------------------------
+- Improved child theme support
+- Updated translation template file
+
+Files updated:
+- style.css
+- functions.php
+- options/demo-importer/
+
+
+v2.1.5 (Jan 12, 2017)
+-----------------------------
+- One click demo importer improvements
+
+Files updated:
+- style.css
+- functions.php
+- options/demo-importer/
+
+
+v2.1.4 (Jan 11, 2017)
+-----------------------------
+- Fixed MTS Post Slider widget not functioning when the homepage slider is turned off
+
+Files updated:
+- functions.php
+- style.css
+
+
+v2.1.3 (Jan 7, 2017)
+-----------------------------
+- Fixed “Import Theme Options & Widgets” button issue
+
+Files updated:
+- style.css
+- functions.php
+- options/js/options.js
+
+
+v2.1.2 (Jan 7, 2017)
+-----------------------------
+- One click demo importer improvements
+- Fixed issue regarding slow loading of admin area
+
+Files updated:
+- style.css
+- functions.php
+- options/
+- lang/
+- functions/
+
+
+v2.1.1 (Oct 22, 2016)
+-----------------------------
+- One click demo importer improvements
+- Install Plugins page improvements
+
+Files updated:
+- style.css
+- functions.php
+- theme-presets.php
+- options/
+- lang/
+- functions/plugin-activation.php
+
+
+v2.1 (Aug 22, 2016)
+-----------------------------
+- Fixed home widget display issue on first layout when there are more featured categories
+- Home widget on first layout allowed only on latest posts
+
+Files updated:
+- style.css
+- functions.php
+- index.php
+
+
+v2.0.17 (Aug 19, 2016)
+-----------------------------
+- Fixed WP Gallery layout issue
+- Fixed single post Zoomout effect
+- Removed html5shim script
+
+Files updated:
+- style.css
+- functions.php
+
+
+v2.0.16 (Jun 28, 2016)
+-----------------------------
+- Fixed floating social icons if review box location is set after the content
+
+Files updated:
+- style.css
+- single.php
+
+
+v2.0.15 (May 14, 2016)
+-----------------------------
+- Fixed mobile menu button issue if menu is assigned on “Mobile” location
+- Fixed Twitter sharing URL issue when there are special chars in title
+
+Files updated:
+- style.css
+- functions.php
+- functions/theme-actions.php
+- css/responsive.css
+
+
+v2.0.14 (Mar 17, 2016)
+-----------------------------
+- Updated code on Recommended plugins page
+
+Files updated:
+- style.css
+- functions/plugin-activation.php
+- css/addons.css
+
+
+v2.0.13 (Mar 8, 2016)
+-----------------------------
+- Recommended plugins page changes
+
+Files updated:
+- style.css
+- functions.php
+- functions/plugin-activation.php
+- css/addons.css
+
+
+v2.0.12 (Mar 5, 2016)
+-----------------------------
+- Fixed List & Image formatting issue on full width posts
+
+Files updated:
+- style.css
+
+
+v2.0.11 (Feb 25, 2016)
+-----------------------------
+- Fixed Numbered pagination was disappearing on mobile screens 
+
+Files updated:
+- style.css
+- css/responsive.css
+
+
+v2.0.10 (Feb 17, 2016)
+-----------------------------
+- Fixed issue with homepage custom slider
+
+Files updated:
+- style.css
+- functions.php
+- theme-options.php
+
+
+v2.0.9 (Jan 23, 2016)
+-----------------------------
+- Added one click demo importer with 2 demos
+- Improved Recommended plugins list loading
+- Fixed lazy load feed issue
+- Fixed issue when right sidebar won't show if 'Sidebar' string is translated
+- Fixed posts layout issues
+- Fixed posts layout gaps - user just set the number of posts in Settings->Reading which is applied on archives and search pages and the theme is adjusting this number on homepage
+- Added option to disable larger post on homepage
+- Fixed missing image on variable product in WC 2.5
+- Updated language file
+
+Files updated:
+- style.css
+- functions.php
+- header.php
+- index.php
+- theme-presets.php
+- options/options.php
+- options/js/options.js
+- options/css/options.css
+- options/demo-importer/
+- functions/plugin-activation.php
+- css/addons.css
+- js/addons.js
+- js/ajax.js
+- css/woocommerce2.css
+- lang/default.pot
+
+
+v2.0.8 (Jan 19, 2016)
+-----------------------------
+- Fixed broken custom sidebar on homepage
+- Fixed notices showing inside theme options panel
+
+Files updated:
+- style.css
+- functions.php
+- index.php
+- options/options.php
+
+
+v2.0.7 (Jan 18, 2016)
+-----------------------------
+- Fixed broken custom sidebars for archive and search pages
+
+Files updated:
+- style.css
+- functions.php
+- archive.php
+- search.php
+
+
+v2.0.6 (Dec 22, 2015)
+-----------------------------
+- Added Performance options
+- Added width and height properties to logo image
+- Removed getimagesize() function
+- Other fixes and improvements
+
+Files updated:
+- style.css
+- functions.php
+- header.php
+- theme-options.php
+- functions/widget-tweets.php
+
+
+v2.0.5 (Dec 21, 2015)
+-----------------------------
+- Fixed broken logo issue
+- Fixed fatal error issue when there are two or more Recent Tweets widgets
+- Fixed Tab headline styling in Options Panel
+
+Files updated:
+- style.css
+- theme-options.php
+- functions/widget-tweets.php
+- options/css/options.css
+
+
+v2.0.4 (Dec 18, 2015)
+-----------------------------
+- Fixed new structured data testing tool errors
+
+Files updated:
+- style.css
+- functions.php
+- functions/theme-actions.php
+
+
+v2.0.3 (Dec 17, 2015)
+-----------------------------
+- Fixed structured data testing tool errors
+- Fixed hentry related errors
+- Featured label enabled on archive and search pages
+- Fixed old php version warnings and few others
+- Fixed issue regarding featured image was not showing on post edit screen
+- Fixed issue regarding home slider not showing if only one slide exists
+- Few options panel fixes
+- Other fixes and improvements
+
+Files updated:
+- style.css
+- functions.php
+- single.php
+- archive.php
+- search.php
+- index.php
+- theme-options.php
+- functions/plugin-activation.php
+- functions/theme-actions.php
+- options/options.php
+- options/fields/upload/field_upload.js
+- js/owl.carousel.min.js
+
+
+
+v2.0.2 (Dec 16, 2015)
+-----------------------------
+- Fixed: WooCommerce widget styling
+- Improved: WooCommerce product review section
+
+Files updated:
+- style.css
+- functions.php
+- css/woocommerce.css
+
+
+v2.0.1 (Dec 7, 2015)
+-----------------------------
+- Fixed widget overflowing issue in single posts
+- Fixed related posts' meta info option (Attached with single post meta info option)
+- Fixed minor CSS bugs
+
+Files updated:
+- style.css
+- theme-actions.php
+
+
+v2.0 (Dec 7, 2015)
+-----------------------------
+- Major Framework Update
+- Huge code and speed optimization
+- Changed theme folder name from 'sociallyviral' to 'mts_sociallyviral'
+- Added New improved Options Panel
+- Added new Homepage Layout (Full height sidebar)
+- Added WooCommerce Support
+- Added Homepage Slider
+- Added Slider Widget
+- Added Lazy Loading for images (Improves site speed dramatically)
+- Added Drag & Drop feature for homepage meta info
+- Added Drag & Drop feature for Single Post Elements
+- Added Floating Option for Social Icons
+- Added Option to add header Ad (728x90)
+- Added Options to set different Menus for different pages
+- Added Option to set separate menu for mobile screens
+- Added Option to Create Child Theme
+- Added Touch & Metro icon support
+- Added Advanced background option (Set Background colors, patterns, custom image and gradients)
+- Added Option to hide Header Social Icons
+- Added Option to hide Footer Navigation
+- Added Option to Show/Hide social sharing icons on Pages
+- Added Drag & Drop option for Social buttons to change the order
+- Added Options to set different sidebars for archive pages
+- Added filter in functions.php for white labeling the theme
+- Added Display Trackbacks and Pingbacks in Comments
+- Added missing strings in translation file
+- Added Improved if/else PHP conditions
+- Added sidebar ID instead of the name
+- Added My WP Backup in recommended plugin list
+- Added prefix mts_ to functions in functions.php
+- Added ZoomOut Header Effect
+- Fixed bug which was preventing closing of Plugin recommendation message
+- Fixed nothumb-sociallyviral-widgetthumb.png on ajax search
+- Fixed loop on Popular Posts widget
+- Fixed Stripped HTML tags from .pot
+- Fixed deprecated function in twitter widget
+- Changed text domain from 'mythemeshop' to 'sociallyviral'
+- Updated Facebook Like Widget
+- Updated Pop-up script
+- Updated Font Awesome to v4.4.0
+- Removed 'nofollow' from archive links
+- Removed unnecessary wp_register_script calls
+- Removed single-parallax.php template
+- Removed Translation Panel & added My WP Translate Plugin for the same
+- Removed unused codes
+- Replaced numbered pagination code with WordPress' default pagination
+- Replaced Archive page title code with the_archive_title()
+
+Note:
+- You need to regenerate thumbnails after upgrade, you can use "OTF Regenerate Thumbnails" Plugin
+- If navigation is messed up after update, you can set it up again from Appearance >> Menus
+- In Parallax page template you need to setup parallax option again by editing that page/post
+
+
+v1.1.2 (Oct 7, 2015)
+-----------------------------
+- Changed widget constructors to PHP 5 style
+- Fixed twitter widget PHP notice
+- Fixed structured data testing tool errors
+- Fixed RTL issues
+- Added WPML support for "dynamic text strings"
+- Updated language files
+
+Files updated:
+- style.css
+- index.php
+- archive.php
+- search.php
+- single.php
+- singlepost-parallax.php
+- functions.php
+- theme-options.php
+- functions/theme-actions.php
+- functions/widget-ad125.php
+- functions/widget-ad300.php
+- functions/widget-fblikebox.php
+- functions/widget-social.php
+- functions/widget-tweets.php
+- functions/widget-review-tab.php
+- css/responsive.css
+- css/rtl.css
+- options/options.php
+- lang/default.po
+- lang/default.mo
+- wpml-config.xml
+
+
+v1.1.1 (Jun 16, 2015)
+---------------------------------------------------
+- Upgraded Facebook SDK script
+
+Files updated:
+- functions/widget-fblikebox.php
+- js/customscript.js
+- style.css
+
+
+v1.1.0 (Jun 13, 2015)
+---------------------------------------------------
+- Improved mobile menu
+
+Files updated:
+- css/responsive.css
+- js/customscript.js
+- style.css
+
+v1.0.9 (May 28, 2015)
+---------------------------------------------------
+- Fixed another typography panel issue
+
+Files updated:
+- options/google-typography/google-typography.php
+- options/google-typography/javascripts/google-typography.js
+- style.css
+
+
+v1.0.8 (May 27, 2015)
+---------------------------------------------------
+- Fixed typography panel issue
+- Fixed iOS CSS issue
+- Fixed duplicate title issue
+
+Files updated:
+- functions.php
+- options/options.php
+- options/google-typography/google-typography.php
+- options/google-typography/javascripts/google-typography.js
+- style.css
+
+
+v1.0.7 (May 11, 2015)
+---------------------------------------------------
+- Added missing Apple Touch icon.
+
+Files updated:
+- images/apple-touch-icon.png
+- style.css
+
+
+v1.0.6 (May 10, 2015)
+---------------------------------------------------
+- Share buttons open in full new window
+- Homepage widget area appears in first section, no matter which category.
+- Header social icons should open in new window
+- Fixed Pinterest Share not picking up featured image
+- Removed space between @ and username in twitter share button
+- Fixed Google Plus share button url
+- Fixed below post ad.
+- Optimized Responsiveness
+- Removed Draft Posts from ajax search
+- Removed gaps appearing in tablet and phone.
+- Fixed mobile menu not working in opera.
+- Fixed floating navigation issue.
+- Added support for add_theme_support( 'title-tag' )
+- Fixed double font issue in Typography Settings.
+- Moved few CSS files in footer to improve Theme performance.
+- Changed support link in Options Panel
+- Added website name microdata
+- Added New Facebook Like box.
+- Fixed HTTPS issue in options panel.
+- Added Condition to viewport meta tag.
+- Added code to disable wp.org false update notification
+- Fixed author post widget bug.
+
+Files updated:
+- functions.php
+- style.css
+- css/responsive.css
+- js/customscript.js
+- js/sticky.js
+- functions/theme-actions.php
+- single.php
+- header.php
+- options/google-typography/javascripts/google-typography.js
+- options/google-typography/google-typography.php
+- options/options.php
+- functions/widget-fblikebox.php
+- functions/widget-authorposts.php
+
+
+v1.0.5 (Feb 26th, 2015)
+-----------------------------
+- Fixed ajax pagination issue.
+
+Files updated:
+- ajax.js
+- style.css
+
+
+v1.0.4 (Feb 22th, 2015)
+-----------------------------
+- Fixed responsiveness related issues.
+
+Files updated:
+- responsive.css
+- style.css
+
+
+v1.0.3 (Feb 10th, 2015)
+-----------------------------
+- Fixed featured label issue on archive pages.
+
+Files updated:
+- archive.php
+- search.php
+- style.css
+
+
+v1.0.2 (Jan 26th, 2015)
+-----------------------------
+- Fixed Mega Menu plugin issue in mobile menu.
+- Changed default fonts to Roboto to fix font loading issues related to Fira Sans font.
+
+Files updated:
+- responsive.css
+- style.css
+- theme-options.php
+
+
+v1.0.1 (Oct 15th, 2014)
+-----------------------------
+- Fixed Text Widget for adding ads
+
+Files updated:
+- style.css
+
+
+v1.0 (Oct 14th, 2014)
+-----------------------------
+- Theme Released

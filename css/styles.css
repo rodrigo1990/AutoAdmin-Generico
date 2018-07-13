@@ -1,0 +1,629 @@
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+body
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
+  color: #404041;
+  background: #ffffff;
+  overflow-x: hidden;
+}
+
+.clear
+{
+  clear: both;
+}
+
+.img_full
+{
+  width: 100%;
+  max-width: 100%;
+}
+
+.img_hover_zoom
+{
+	-moz-transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+ 	transition: all 0.3s;
+}
+.img_hover_zoom:hover
+{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+header
+{
+	background: #00a5e7;
+	padding: 10px 0px;
+}
+
+#logo
+{
+	width: 100%;
+	max-width: 240px;
+}
+
+#redes_header
+{
+	text-align: right;
+	padding-right: 30px;
+}
+#redes_header i
+{
+	color: #ffffff;
+	font-size: 20px;
+	margin-left: 12px;
+	font-size: 18px;
+}
+
+#franja_header
+{
+	background: #eb5838;
+	padding: 4px 0px;
+	color: #fff000;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+#izquierda_header
+{
+	padding-left: 85px;
+}
+
+#franja_header a
+{
+	color: #ffffff;
+	font-size: 17px;
+}
+
+#franja_header img
+{
+	margin-top: -4px;
+}
+
+#franja_header a:hover
+{
+	color: #ececec;
+}
+
+#derecha_header
+{
+	padding-right: 45px;
+}
+
+.titulos
+{
+	color: #00a5e7;
+	font-size: 29px;
+	font-weight: 700;
+	text-align: center;
+	padding: 35px 0px 7px 0px;
+}
+
+.subtitulos
+{
+	margin: -10px 0px 0px 0px;
+	padding: 0px;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.textos_principales
+{
+	line-height: 25px;
+	font-size: 15px;
+	text-align: center;
+}
+
+/* FOOTER */
+footer
+{
+	background: #00a5e7;
+	color: #ffffff;
+	padding: 40px 0px;
+	margin-top: 6px;
+	text-align: center;
+	font-size: 15px;
+	border-bottom: 40px solid #eb5838;
+}
+
+footer span
+{
+	font-weight: 700;
+	font-size: 19px;
+}
+
+footer img
+{
+	width: 100%;
+	max-width: 90px;
+	margin-bottom: 8px;
+}
+
+footer a
+{
+	color: #ffffff;
+}
+footer a:hover
+{
+	color: #ffffff;
+}
+
+footer h2
+{
+	text-align: center;
+	color: #fff000 !important;
+	font-size: 29px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+footer p
+{
+	text-align: center;
+	color: #fff000;
+	font-size: 15px;
+	font-style: italic;
+	margin-top: 40px;
+}
+/* FIN FOOTER */
+
+/* HOME */
+#local_home
+{
+	width: 100%;
+	height: 310px;
+	background: url('../imagenes/home/local.jpg');
+	background-position: center;
+}
+
+#franja_naranja
+{
+	background: url('../imagenes/fondo_naranja.jpg');
+	background-size: cover;
+	padding: 40px 0px;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 41px;
+	letter-spacing: 1px;
+	margin-top: 6px;
+}
+
+#franja_naranja .btn-primary
+{
+	background: #fff000;
+	color: #eb5838;
+	font-family: 'Ubuntu', sans-serif;
+	border: 0px;
+	font-weight: 600;
+	letter-spacing: 0px;
+	border-radius: 8px;
+	font-size: 16px;
+}
+/* FIN HOME */
+
+/* INSTITUCIONAL */
+.fila_institucional
+{
+	border-bottom: 1px solid #babcbe;
+	padding: 30px 0px;
+	line-height: 21px;
+}
+
+.fila_institucional span
+{
+	font-size: 18px;
+	font-weight: 700;
+	color: #00a5e7;
+}
+
+.iconos_institucional
+{
+	text-align: center;
+}
+
+.iconos_institucional img
+{
+	width: 100%;
+	max-width: 100px;
+}
+/* FIN INSTITUCIONAL */
+
+/* CLUB ARGENPESOS */
+.subtitulo_club
+{
+	font-size: 19px;
+	color: #eb5838;
+	font-style: italic;
+	margin: 0px;
+	font-weight: 400;
+	padding: 9px 0px 0px 0px;
+}
+/* FIN CLUB ARGENPESOS */
+
+/* COMO FUNCIONA */
+.list_como_funciona
+{
+	text-align: center;
+}
+
+.list_como_funciona .col-sm-3
+{
+	margin-bottom: 30px;
+}
+
+.list_como_funciona img
+{
+	width: 100%;
+	max-width: 50px;
+}
+
+.texto_como_funciona
+{
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.list_como_funciona .col-sm-2
+{
+	width: 20%;
+}
+.list_como_funciona .col-sm-2 .texto_como_funciona
+{
+	padding: 0px 20px;
+}
+/* FIN COMO FUNCIONA */
+
+
+/* PREGUNTAS FRECUENTES */
+.panel-default>.panel-heading
+{
+  background: none !important;
+  border-bottom: 1px solid #ececec;
+}
+
+.panel
+{
+  border: 0px !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+}
+
+.panel-title
+{
+  font-weight: 300;
+  color: #242424;
+  font-size: 14px;
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body
+{
+  border-top: 0px;
+}
+
+.panel-body
+{
+  padding: 12px 10px;
+  line-height: 22px;
+  color: #6d6e70;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.titulos_faqs
+{
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	color: #00a5e7;
+	border-bottom: 3px solid #00a5e7;
+}
+
+.change_char
+{
+	position: absolute;
+	right: 30px;
+}
+
+.panel-body
+{
+	font-weight: 300;
+}
+
+.panel-heading
+{
+	padding: 10px 0px;
+}
+
+.btn_preguntas
+{
+	background: #e0e6ec;
+	border-radius: 4px;
+	color: #255780;
+	padding: 8px 12px;
+	margin-right: 10px;
+	font-weight: 500;
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 12px;
+}
+.btn_preguntas:hover
+{
+	background: #255780;
+	color: #ffffff;
+}
+.btn_preguntas i
+{
+	font-size: 13px;
+	margin-right: 4px;
+}
+/* FIN PREGUNTAS FRECUENTES */
+
+/* SUCURSALES */
+.titulo_cabecera_suc
+{
+	margin-top: 20px;
+}
+#sucursales_sec .cabecera_sucursales .active .titulo_cabecera_suc
+{
+	background: #eb5838;
+}
+
+#sucursales_sec .cabecera_sucursales .titulo_cabecera_suc
+{
+	color: #ffffff;
+	background: #00a5e7;
+	font-weight: 500;
+	border-radius: 8px;
+	font-size: 16px;
+	padding: 6px 15px;
+	font-family: 'Ubuntu', sans-serif;
+	display: block;
+}
+
+#sucursales_sec li
+{
+	list-style-type: none !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.listado_sucursales
+{
+	margin-top: 10px;
+	line-height: 23px;
+}
+
+.listado_sucursales a
+{
+	color: #000000;
+}
+
+.item_sucursal
+{
+	background: #fff000;
+	padding: 15px;
+	color: #404041;
+	font-style: italic;
+	margin: 100px 0px 90px 0px;
+}
+
+.item_sucursal span
+{
+	font-style: normal;
+	font-weight: 700;
+}
+
+.item_sucursal img
+{
+	margin-bottom: 15px;
+}
+/* FIN SUCURSALES */
+
+/* SUMATE */
+#titulo_sumate
+{
+	color: #eb5838;
+	font-size: 16px;
+	font-weight: 700;
+	margin: 15px 0px 25px 0px;
+	padding: 0px;
+}
+
+.izquierda_sumate
+{
+	text-align: right;
+	color: #00a5e7;
+	font-size: 13px;
+	padding: 5px 0px 0px 0px;
+}
+
+.input_sumate
+{
+	border: 2px solid #00a5e7;
+	background: #ffffff;
+	padding: 4px 6px;
+	width: 100%;
+	color: #eb5838;
+	margin-bottom: 10px;
+}
+
+.titulos_sumate
+{
+	color: #eb5838;
+	font-size: 15px;
+	font-weight: 700;
+	margin: 15px 0px 25px 0px;
+	padding: 0px;
+	border-bottom: 2px solid #eb5838;
+}
+
+.btn_naranja_form
+{
+	background: #eb5838;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 15px;
+	border: 0px;
+	padding: 5px 15px;
+	border-radius: 8px;
+}
+.btn_naranja_form:hover, #custom_file:hover
+{
+	background: #00a5e7;
+}
+
+#custom_file
+{
+   	cursor: pointer;
+   	background: #eb5838;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 15px;
+	border: 0px;
+	padding: 5px 15px;
+	border-radius: 8px;
+}
+
+#upload-cv {
+   opacity: 0;
+   position: absolute;
+   z-index: -1;
+}
+/* FIN SUMATE */
+
+/* CONSULTA CUENTA */
+.izquierda_cuenta
+{
+	text-align: right;
+	color: #eb5838;
+	font-size: 13px;
+	padding: 5px 0px 0px 0px;
+}
+
+.input_cuenta
+{
+	border: 2px solid #eb5838;
+	background: #ffffff;
+	padding: 4px 6px;
+	width: 100%;
+	color: #eb5838;
+	margin-bottom: 10px;
+}
+/* FIN CONSULTA CUENTA */
+
+#map
+{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	left: 0px;
+}
+
+
+#click2call a:hover {
+    cursor: pointer;
+}
+
+
+#club_argenpesos .titulos{
+    color: #00a5e7;
+    font-weight: 700;
+    text-align: left;
+    padding:0;
+}
+
+#club_argenpesos .subtitulos{
+	font-weight: normal;
+	text-align: left;
+	padding:0;
+	margin-top:10px;
+}
+
+#club_argenpesos .img-section{
+	cursor:pointer;
+}
+
+
+#club_argenpesos .overlay {
+    background: white;
+    position: absolute;
+    top: 0%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+#club_argenpesos .img-section:hover .overlay {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    opacity: 0.8;
+}
+
+#club_argenpesos .row{
+
+	margin-top:5%;
+
+}
+
+
+#club_argenpesos .link-cont{
+    width: 12%;
+    margin-left: auto;
+    margin-right: auto;
+        margin-top: 14%;
+
+}
+
+#club_argenpesos .link-cont .a-button{
+	font-size: 34px;
+	color:#00a5e7;
+}
+
+
+
+#club_argenpesos .img-portada{
+    background-size:cover;background-repeat:no-repeat;width:100%;max-width:638px;height:300px;background-position:center;
+}
+
+
+.content {
+        position: absolute;
+    left: 25px;
+    right: 25px;
+    top: 50%;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 152px;
+    width: 100%;
+}
+
+
+
+.content:focus {
+    outline:none !important;
+    outline: none !important;
+    outline-offset: 0px !important; 
+}

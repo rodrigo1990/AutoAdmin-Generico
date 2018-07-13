@@ -1,0 +1,5 @@
+[06-Mar-2018 15:27:27 UTC] PHP Warning:  require_once(recaptchalib.php): failed to open stream: No such file or directory in /home/arg/public_html/solicitarprestamo/solicitud.php on line 2
+[06-Mar-2018 15:27:27 UTC] PHP Fatal error:  require_once(): Failed opening required 'recaptchalib.php' (include_path='.:/opt/cpanel/ea-php54/root/usr/share/pear') in /home/arg/public_html/solicitarprestamo/solicitud.php on line 2
+[06-Mar-2018 16:12:06 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/arg/public_html/solicitarprestamo/solicitud.php on line 26
+[06-Mar-2018 16:14:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/arg/public_html/solicitarprestamo/solicitud.php on line 234
+[06-Mar-2018 16:37:06 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/arg/public_html/solicitarprestamo/solicitud.php on line 266

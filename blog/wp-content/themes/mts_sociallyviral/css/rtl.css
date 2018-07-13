@@ -1,0 +1,200 @@
+blockquote { padding: 0 27px 20px 10px }
+blockquote:after { right: 0; left: auto; }
+dt { float: right; clear: right; text-align: left; }
+dd { margin: 0 110px 0 0 }
+#page, div#page.single { float: right }
+/*-[ Header ]-----------------------*/
+header { float: right }
+.main-header { float: right }
+#header { float: right }
+#header h1, #header h2 { float: right }
+#logo a { float: right }
+#logo img { float: right }
+.logo-wrap { float: right; padding: 0 25px 0 0; }
+.site-description { float: right; clear: right; }
+#header .header-search { text-align: right }
+#header #searchform { float: right }
+.header-social { float: left; margin-right: 0; margin-left: 25px; }
+.header-social a { float: right; margin-right: 0; margin-left: 3px; }
+.header-social a:last-child { margin-left: 0 }
+.widget-header { float: left }
+.widget-header .textwidget { float: right; border-left: 0; border-right: 1px solid #cccccc; padding-left: 0; padding-right: 20px; }
+/*-[ Navigation ]-----------------*/
+.menu-item-has-children > a:after { right: auto; left: 25px; }
+.primary-navigation #navigation .menu-item-has-children > a { padding-right: 30px; padding-left: 38px; }
+.primary-navigation { float: left; text-align: right; }
+.primary-navigation a { text-align: right }
+.primary-navigation #navigation { float: right }
+.primary-navigation #navigation ul li { float: right }
+.primary-navigation #navigation ul ul li { border-left: 0 }
+.primary-navigation #navigation ul ul a, .primary-navigation #navigation ul ul a:link, .primary-navigation #navigation ul ul a:visited { padding: 13px 20px 13px 45px }
+.navigation ul ul { left: 0 }
+#primary-navigation .menu-item-has-children > a { padding-right: 30px; padding-left: 38px; }
+#navigation ul ul ul { left: auto; right: 255px; }
+.primary-navigation #navigation i { margin-left: 4px; margin-right: auto; }
+#sidebar .widget_nav_menu .toggle-caret { right: auto; left: 0; }
+.navigation ul li { float: right; border-right: 0; border-left: 1px solid rgba(255, 255, 255, 0.22); }
+.navigation { float: right }
+/*-[ Content ]--------------------*/
+.article, #content_box, .post, .single_page, .post-content, .readMore, .wp-post-image, .featured-thumbnail, #featured-thumbnail, .single-title, .post-info { float: right }
+.single_post .thecategory { margin-right: 0; float: right; }
+.post-info > span, .widget .vertical-small .post-info > span { margin-right: 0; margin-left: 35px; display: inline-block; }
+.post-info > span:last-child { margin-left: 0 }
+.post-info i { margin-right: 0; margin-left: 3px; }
+.widget .post-info > span { margin-right: 0; margin-left: 15px; }
+.thecategory { margin-left: 0; margin-right: 5px; }
+/**********latest-posts***********/
+article header { float: right }
+.single-prev-next { float: left }
+.single-prev-next a, .single-prev-next a i { margin-right: 0; margin-left: 3px; }
+.single-prev-next a:last-child { margin-left: 0 }
+.latestPost { float: right; margin-right: 0; margin-left: 2.6%; }
+.post-label { left: auto; right: 0; }
+.latestPost.first { clear: right }
+.article ul, .article ol { margin-right: 1.9em; margin-left: 0; }
+.article .iconlist { margin-right: 0 }
+/*-[ Facebook like box Widget ]---------------------------*/
+.widget .fb_iframe_widget { float: right }
+.widget.mts_googleplus > div { float: right!important }
+/*-[ Custom Nav Widget ]---------------------------*/
+.widget_nav_menu .fa > a, .widget_nav_menu .fa > a { padding-left: 0; padding-right: 5px; }
+/*-[ Tables ]--------------------*/
+table, table th, table td { text-align: right }
+/*-[ Search Form ]------------------*/
+#searchform, #searchform fieldset { float: right }
+#search-image.sbutton, #searchsubmit { left: 0px; float: left; right: auto; }
+#searchform .fa-search { left: 0px; right: auto; }
+#s { float: right }
+/* Microphone icon position fix */
+input::-webkit-input-speech-button { margin-left: 14px; margin-right: 4px; }
+.breadcrumb { float: right }
+/*-[ Read More ]-------------------*/
+.read-more { margin: 0 10px 0 0 }
+/*-[ Bottom Ad in post ]-----------*/
+.bottomad { float: right }
+.sidebar.c-4-12 { float: left }
+#sidebars .wp-post-image, footer .wp-post-image, .widget .wp-post-image, .widget .wpt_thumb_small, .wpt_avatar, .widget .wp_review_tab_thumb_small, .widget .post-img img { margin-left: 10px!important; float: right; margin-right: 0!important; }
+.widget .vertical-small .post-title { float: right }
+#sidebars .vertical-small .wp-post-image, footer .vertical-small .wp-post-image { margin-left: 0!important }
+.widget .vertical-small .post-info { float: right }
+.widget { float: right }
+.widget li { margin-left: 0; margin-right: 17px; }
+.widget .vertical-small .post-data { float: right }
+.advanced-recent-posts li, .popular-posts li, .category-posts li, .related-posts-widget li, .author-posts-widget li { padding-right: 0 }
+.share-item, .share-item.shareit.top, .header-social.single-social { float: right }
+article .rrssb-buttons li:first-child { padding-right: 0 }
+article .rrssb-buttons li:last-child { padding-left: 0 }
+article .rrssb-buttons { margin: 0 }
+.social-profile-icons ul li, .social-profile-icons ul li a, article .rrssb-buttons li { float: right }
+article .rrssb-buttons li a .text { margin-left: 0; margin-right: 7px; }
+.f-widget { float: right; margin-left: 8%; margin-right: 0; }
+.widgets-num-4 .f-widget { margin-right: 0; margin-left: 2.6%; }
+.widgets-num-4 .f-widget.last { margin-left: 0 }
+.copyrights, .copyright { float: right }
+.footer-navigation li { border-left: 1px solid #D2D2D2; border-right: 0; }
+.footer-navigation li:first-child { padding-left: 12px }
+.footer-navigation li:last-child { border-left: 0; padding-left: 0; padding-right: 12px; }
+/*-[ Back To Top ]---------------------------*/
+.top { float: left }
+#move-to-top { left: 26px; right: auto; }
+/*-[ Related Posts ]---------------------------*/
+.related-posts { float: right }
+.related-posts .latestPost { margin-right: 0; margin-left: 3.04%; }
+.related-posts .latestPost:nth-child(3n-2) { clear: right }
+.related-posts .last { margin-left: 0 }
+/*-[ Post Tags ]---------------------------------*/
+.tags { float: right }
+.tags a { margin-right: 5px; margin-left: 0; }
+/*-[ Author Box ]--------------------------------*/
+.postauthor { /*margin: 20px 0 0px 0;*/ float: right; }
+.postauthor img { float: right; margin: 0 0 0 20px; }
+.author-wrap { padding-right: 0; padding-left: 20px; }
+span.author-posts { float: left }
+.left { float: right }
+.right { float: left }
+.last { margin-left: 0 }
+/*-[ Tag widget ]------------------------------*/
+.tagcloud a { float: right; margin-left: 3px; margin-right: 0; }
+/*-[ Subscribe Widget ]------------------------*/
+.mts-subscribe input[type="text"] { float: right }
+#mts_subscribe_widget { border: 1px solid #F1F1F1 !important }
+.mts-subscribe input[type="submit"] { float: left; left: 0; right: auto; }
+/*-[ Ad Widgets ]------------------------------*/
+.ad-125 ul { float: right }
+.ad-125 li { float: right; padding-right: 0; margin-right: 0; }
+.ad-125 li:nth-child(2n+2) { float: left!important }
+.ad-300 img { float: right }
+/*-[ Calender Widget ]-------------------------*/
+#wp-calendar td { border-left: 1px solid #F1F4F6; border-right: 0; }
+#wp-calendar #prev { text-align: right; padding-right: 12px; padding-left: 0; }
+#wp-calendar #next { text-align: left; padding-right: 0; padding-left: 12px; }
+/*-[Comments]--------------*/
+.nocomments { float: right }
+#comments { float: right }
+#commentsAdd { float: right }
+#comments .avatar { float: right; margin-left: 20px; margin-right: 0; }
+.comment time { padding-right: 10px; padding-left: 0; }
+ul.children .commentImageLeft { border-left: 0; border-right: 1px solid #c1bbb6; right: -70px; left: auto; }
+input#author, input#email, input#url { margin-left: 10px; margin-right: 0; }
+#cancel-comment-reply-link { float: left }
+#commentform input#submit, .contact-form #mtscontact_submit { float: right }
+.contactform #submit { float: right }
+ol.commentlist { margin-right: 0 }
+.commentlist li { padding-right: 0; float: right; }
+.reply { float: left }
+.reply a { float: right }
+.commentlist .children { margin-right: 10%; margin-left: 0; float: right; }
+.avatar { float: right }
+#commentform p { float: right }
+#commentform p label { padding-right: 10px; padding-left: 0; }
+.cancel-comment-reply a { float: left }
+.comment-notes .required { padding-right: 0 }
+.comment-meta, .ago, .fn, .logged-in-as a { display: inline-block }
+.ago { margin-right: 20px; margin-left: 0; }
+.review-comment-field-msg { margin-left: 12px; margin-right: 0; display: block; float: right; }
+/*-[ pagination ]------------------*/
+.pagination { float: right }
+.pagination ul li { float: right }
+.currenttext, .pagination a:hover, .single .pagination a:hover .currenttext, .page-numbers.current { margin: 0 0 0 5px; float: right; }
+.pagination a { margin: 0 0 0 5px; float: right; }
+.pagination .nav-previous { float: right }
+.pagination .nav-next { float: left }
+.pagination .nav-next a { margin-right: 5px; margin-left: 0; }
+.single .pagination a .currenttext, .single .pagination a:hover .currenttext { margin-left: 0 }
+/*-[ Contact Form ]------------------*/
+.contact-form.loading:after { right: 0 }
+.ajax-search-results-container { right: 0; left: auto; }
+.ajax-search-results-container.loading:after { left: 0; right: 0; }
+.ajax-search-results img { margin-right: 0; margin-left: 15px; float: right; }
+.ajax-search-meta .results-count { float: right }
+.ajax-search-meta .results-link { float: left }
+/*-[ Load More ]-------------------*/
+.pace .pace-progress { right: 0 }
+div#load-posts a { float: right }
+#load-posts a .fa { margin-left: 8px; margin-right: 0; }
+pre:before { left: 14px; right: auto; }
+/*-[ WP Tab Widget ]--------------------------------*/
+.wpt_widget_content .inside li, .widget .wp_review_tab_widget_content .tab-content li { text-align: right!important }
+/*-[ WP Review ]--------------------------------*/
+.latestPost-review-wrapper { left: 0; right: auto; }
+.review-star { left: 15px; right: auto; }
+.review-result-wrapper i { float: left }
+.review-star { left: 15px; right: auto; }
+.review-result-wrapper i { float: left }
+.review-desc { float: right }
+.review-total-wrapper { float: left; margin-right: 0; margin-left: 15px; }
+.user-total-wrapper { float: right; text-align: right; }
+.user-total-wrapper span { float: right }
+span#mts-user-reviews-counter { float: none }
+.review-total-star.allowed-to-rate { float: left }
+.widget .wp-review-tab-pagination a.next { float: left }
+.widget .wp-review-tab-pagination a.prev { float: right }
+.bar-point .review-result, .percentage-point .review-result { left: auto; right: 0; }
+@media screen and (max-width: 480px) { 
+    .featured-thumbnail { width: 100% }
+}
+@media screen and (max-width: 865px) { 
+    a#pull { float: left; padding-left: 15px; }
+    #primary-navigation .menu-item-has-children > a { padding-left: 0 }
+    #primary-navigation li a { padding-left: 30px !important }
+}

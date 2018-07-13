@@ -1,0 +1,1 @@
+<?php $VALS = Array() ; $VALS['CHAT_SPAM_IPS'] = '' ; $VALS['TRAFFIC_EXCLUDE_IPS'] = '' ; $VALS['OFFLINE'] = '' ; $VALS['ONLINE'] = '' ; $VALS['THEMES'] = 'a:2:{i:1;s:7:"default";i:2;s:7:"default";}' ; $VALS['POPOUT'] = '' ; $VALS['auto_initiate'] = '' ; ?>

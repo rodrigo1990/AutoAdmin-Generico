@@ -1,0 +1,128 @@
+body
+{
+	margin: 0px;
+	font-family: Helvetica;
+	width: auto;
+	height: 100%;
+	background-color: #1B99D5;
+	height: 100%;
+	color: #fff;
+}
+
+img
+{
+	border:0px;
+}
+
+#login
+{
+	z-index:3;
+	top: 50%;
+	margin-top: -100px;
+	left: 50%;
+	margin-left: -120px;
+	position:fixed;
+	width:245px;
+	padding: 10px;
+	text-align:center;
+	border: 1px solid #ccc;
+	color: white;
+	background: #fff;
+	font-size: 14px;
+}
+
+.boton_forml
+{
+	background: white;
+	color: #637D89;
+	border: 1px solid #ccc;
+	padding: 3px;
+	cursor: pointer;
+}
+
+.boton_forml:hover
+{
+	background: #637D89;
+	color: white;
+}
+
+.franja_superior
+{
+	width: 98%;
+	right: 0px;
+	height: 51px;
+	background: url('../imagenes/franja_superior.png');
+	background-repeat: repeat-x;
+	position: fixed;
+}
+
+.logo
+{
+	width: 165;
+	position: fixed;
+	margin-top: 18px;
+}
+
+.franja_inferior
+{
+	width: 90%;
+	margin-left: 5%;
+	height: 7px;
+	background: #4E2C5F;
+	position: fixed;
+	bottom: 0px;
+}
+
+.menu
+{
+	width: 650px;
+	position: absolute;
+	right: 0px;
+	margin-right: 5%;
+	margin-top: 5px;
+	z-index: 999;
+}
+
+#cuerpo_index_panel
+{
+	width: 700px;
+	margin: auto;
+	padding-top: 200px;
+}
+
+#cuerpo_index_novedades
+{
+	width: 800px;
+	margin: 20px auto 0px auto;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+
+.titulo_index
+{
+	text-decoration: none;
+	color: #4E2C5F;
+}
+
+.titulo_index:hover
+{
+	color: #000000;
+}
+
+.titulo_novedad
+{
+	color: #E86D1F;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.titulo_novedad:hover
+{
+	color: #666;
+}
+
+.texto_novedad
+{
+	border-bottom: 1px solid #ccc;
+	padding: 10px 10px 10px 10px;
+}

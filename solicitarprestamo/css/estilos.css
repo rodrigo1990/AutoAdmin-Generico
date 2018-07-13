@@ -1,0 +1,171 @@
+body{
+	overflow-x: hidden !important;
+}
+
+
+#main{
+	background-color:#2AA1D7;
+}
+
+img#logo
+{
+	width: 100%;
+	max-width: 261px;
+}
+
+.form-titles{
+	font-family: ubuntu-bold;
+	color:#F9E822;
+}
+
+
+.inline-block{
+	display:inline-block;
+}
+
+.form-group-width{
+	width: 49.6%;
+}
+
+#btn_enviar
+{
+	background: transparent;
+	border: 1px solid #0081B1;
+	color: #ffffff;
+	border-radius: 30px;
+	font-size: 22px;
+	width: 100%;
+	padding: 5px 10px;
+	font-weight: 700;
+	max-width: 250px;
+	text-decoration:none;
+    font-size: 2rem;
+}
+#btn_enviar:hover
+{
+	background: #0081B1;
+}
+
+.no-margin{
+	margin: 0;
+}
+
+form .row{
+	padding-bottom: 3%;
+}
+
+form label{
+	font-family: "ubuntu-regular";
+	color:white;
+}
+
+form p{
+	color:white;
+	font-family: "ubuntu-regular";
+}
+
+#pasos .pasos{
+	background-color:#E7593A;
+	border-top:12px solid #F9E822;
+}
+
+.red-border{
+	border:2px solid #E7593A;
+	
+	padding:25px;
+}
+
+.credito-ahora{
+	margin-top: -2%;
+	background-color:#EFF0F0;
+}
+
+section#pasos h3,h5{
+	font-family:"ubuntu-regular";
+	color:white;
+}
+
+section#pasos h2{
+	font-family:"ubuntu-bold";
+	color:white;
+	margin-bottom:0 !important;
+}
+
+.row{
+	margin-right: 0px !important;
+}
+
+.credito-ahora{
+	font-family: "ubuntu-bold";
+	color:#E7593A;
+}
+
+footer{
+	font-family: "ubuntu-regular";
+	color:#8E8E8D;
+}
+
+.yellow-padding{
+	background-color: #F9E822;
+    width: 73%;
+    margin-left: 16%;
+    padding:5px;
+}
+
+.yellow-padding h3{
+	font-family: "ubuntu-bold";
+	margin:0;
+}
+
+#cobrarPorCuenta h3{
+	font-family: "ubuntu-bold";
+	color:white;
+}
+
+#cobrarPorCuenta p{
+	font-family: "ubuntu-regular";
+	color:white;
+}
+.error{
+	font-weight: bolder;
+	color:#F9E822;
+	display:none;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	.decoracion{
+		display:none;
+	}
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+ #nube-down{
+ 	    margin-top: -19% !important; 
+ 	    width: 12%;
+ }
+
+ #nubeSuperior{
+ 	width:35%;
+ }
+
+ #mano{
+
+ 	/*top:38% !important;*/
+ }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+
+}
+
+
+
+

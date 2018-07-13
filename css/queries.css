@@ -1,0 +1,100 @@
+@media screen  and (min-width: 768px) and (max-width: 1000px) {
+	#cssmenu
+	{
+		padding-left: 0px !important;
+		padding-right: 10px !important;
+	}
+	#cssmenu > ul > li > a
+	{
+		font-size: 14px !important;
+		margin: 0px 0px 0px 10px !important;
+	}
+
+	#club_argenpesos .img-section img{
+margin-top:14%;
+
+}
+	
+
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1150px) {
+	#cssmenu
+	{
+		padding-left: 0px !important;
+	}
+	#cssmenu > ul > li > a
+	{
+		font-size: 15px !important;
+		margin: 0px 0px 0px 15px !important;
+	}
+}
+
+@media screen and (min-width: 1151px) and (max-width: 1300px) {
+	#cssmenu > ul > li > a
+	{
+		font-size: 16px !important;
+		margin: 0px 0px 0px 20px !important;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.text_center_mobile
+	{
+		text-align: center !important;
+	}
+
+	#cssmenu > ul > li > a
+	{
+		margin-left: 0px !important;
+	}
+
+	#cssmenu.small-screen #menu-button
+	{
+		padding-left: 0px !important;
+	}
+
+	#izquierda_header
+	{
+		padding-left: 0px !important;
+	}
+
+	.iconos_institucional
+	{
+		margin-bottom: 15px;
+	}
+
+	.list_como_funciona .col-sm-2
+	{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	footer .col-xs-6
+	{
+		margin-bottom: 30px;
+	}
+
+	#sucursales_sec .nav-tabs>li>a
+	{
+		margin-bottom: 10px;
+	}
+
+	.listado_sucursales
+	{
+		/* display: none; */
+	}
+
+	.izquierda_sumate
+	{
+		text-align: center;
+	}
+
+	.izquierda_cuenta
+	{
+		text-align: center;
+	}
+
+
+
+}

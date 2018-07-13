@@ -1,0 +1,98 @@
+=============================================================
+API/Util_Vars.php variables details and their default values
+=============================================================
+
+----- the directory to write files and to fetch new chat responses and temp storing of chat transcript before saving
+it to the database.  this can be set to a ramdisk location to increase performance
+$CONF["CHAT_IO_DIR"] = "$CONF[CONF_ROOT]/chat_sessions" ;
+
+----- directory where the automatic chat invite indicator file are created.  also the directory where "is typing"
+indicator files are created.  this can be set to a ramdisk location to increase performance
+$CONF["TYPE_IO_DIR"] = "$CONF[CONF_ROOT]/chat_initiate" ;
+
+----- (seconds) - every x seconds the visitor console pings the server to process chat accept/decline/routing status
+$VARS_JS_ROUTING = 3 ;
+
+----- (seconds) - every x seconds the operator console pings the server for new chat requests/auto clean/update status.
+also effects fetching of new chat responses for both the visitor and the operator
+$VARS_JS_REQUESTING = 3 ;
+
+----- (seconds) - every x seconds while the visitor is viewing a page, the system pings the server to update visitor
+footprint status
+$VARS_JS_FOOTPRINT_CHECK = 25 ;
+
+----- (seconds) - every x seconds while the visitor is viewing a page, the system pings the server to process automatic
+and operator initiated chat status.  also effects fetching of real-time chat icon online/offline status
+$VARS_JS_INVITE_CHECK = 13 ;
+
+----- (cycle) - while the visitor is viewing a page, after max x cycles, all periodic ping to the server will be stopped
+to save on server resources.  most likely the browser is kept open and idle
+$VARS_JS_FOOTPRINT_MAX_CYCLE = 100 ;
+
+----- (seconds) - every x seconds, the operator console will ping the server to process latest chat transcript rating
+and to fetch the total/overall number of chats accepted
+$VARS_JS_RATING_FETCH = 25 ;
+
+----- (seconds) - inactive visitors greater then x seconds (did not send a ping response to the server) will be automatically
+cleared from the system for the most current real-time traffic monitor report
+$VARS_FOOTPRINT_U_EXPIRE = $VARS_JS_FOOTPRINT_CHECK * 2 ;
+
+----- (days) - inactive visitor data greater then x days will be cleared from the IP table.  the IP table stores the
+visitor's total chat requests/footprints/initiated chat/IP address/automatic chat invite values
+$VARS_IP_LOG_EXPIRE = 45 ;
+
+----- (days) - inactive visitor data greater then x days will be cleared from the footprint and refer URL tables
+$VARS_FOOTPRINT_STATS_EXPIRE = 90 ;
+
+----- (seconds) - operator console will wait x seconds while sending a ping to the server.  if x seconds is reached, the operator
+console will automatically disconnect and try to reconnect
+$VARS_JS_OP_CONSOLE_TIMEOUT = 15 ;
+
+----- (cycle mod) - ( n % x ) - every x'th cycle, the system will update the visitor's chat status to remain active status
+$VARS_CYCLE_VUPDATE = 4 ;
+
+----- (seconds) - if the last automatic cleaning was less then time()-x, the system attempt an automatic cleaning process
+$VARS_CYCLE_CLEAN = $VARS_JS_REQUESTING + 6 ;
+
+----- (seconds) - operators inactive for max x seconds will automatically be switched to offline status.
+(every $VARS_JS_REQUESTING seconds the operator status is refreshed to remain active status)
+$VARS_EXPIRED_OPS = $VARS_CYCLE_CLEAN * 8 ;
+
+----- (seconds) - chat sessions that are inactive for x seconds (receives ping request from the chat windows)
+will be automatically cleared
+$VARS_EXPIRED_REQS = $VARS_EXPIRED_OPS * 3 ;
+
+----- (seconds) - operator to operator requests that has been inactive for x seconds will be automatically cleared
+$VARS_EXPIRED_OP2OP = $VARS_CYCLE_CLEAN * 3 ;
+
+----- (seconds) - when chat is transferred to another operator, if the new operator does not pick up in x seconds, the
+chat is transferred back to the original operator
+$VARS_TRANSFER_BACK = 45 ;
+
+----- (seconds) - additional seconds added to the routing time if SMS alert is switched on to provide operators additional
+time to return to computer to accept the chat request
+$VARS_SMS_BUFFER = 20 ;
+
+----- (seconds) - additional seconds added to the visitor chat session updated status for mobile devices for situations
+of carrier signal lag or other factors
+$VARS_MOBILE_CHAT_BUFFER = 120 ;
+
+----- (number) - max number of active visitor embed chat sessions before the system recycles the session files.  keep in
+mind, x number of new chat response files are created per chat session
+$VARS_MAX_EMBED_SESSIONS = 3 ;
+
+----- (pixel) - width of the popup chat window
+$VARS_CHAT_WIDTH = 600 ;
+
+----- (pixel) - height of the popup chat window
+$VARS_CHAT_HEIGHT = 540 ;
+
+----- (pixel) - width of the embed chat window
+(there is embed window shadow image behind the embed chat window that is static.  so this should not be modified)
+(shadow image - themes/initiate/widget_shadow.png)
+$VARS_CHAT_WIDTH_WIDGET = 500 ;
+
+----- (pixel) - height of the embed chat window
+(there is embed window shadow image behind the embed chat window that is static.  so this should not be modified)
+(shadow image - themes/initiate/widget_shadow.png)
+$VARS_CHAT_HEIGHT_WIDGET = 490 ;

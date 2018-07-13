@@ -1,0 +1,5 @@
+[06-Feb-2018 15:29:55 UTC] PHP Warning:  mysql_connect(): Access denied for user 'argenpes_lus'@'localhost' (using password: YES) in /home/arg/public_html/prestamos_online/panel/conexion.php on line 7
+[06-Feb-2018 15:29:55 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/arg/public_html/prestamos_online/panel/conexion.php on line 8
+[06-Feb-2018 15:29:55 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/arg/public_html/prestamos_online/panel/login.php on line 9
+[06-Feb-2018 15:29:55 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/arg/public_html/prestamos_online/panel/login.php on line 9
+[06-Feb-2018 15:29:55 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/arg/public_html/prestamos_online/panel/login.php on line 10

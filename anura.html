@@ -1,0 +1,53 @@
+<script type="text/javascript" 
+    src="https://webrtc.anura.com.ar/click2call/js/jquery-2.1.1.min.js">
+</script>
+<script type="text/javascript" 
+    src="https://webrtc.anura.com.ar/click2call/js/jquery.json-2.4.min.js">
+</script>
+<script type="text/javascript" 
+    src="https://webrtc.anura.com.ar/click2call/js/jquery.cookie.js">
+</script>
+<script type="text/javascript" 
+    src="https://webrtc.anura.com.ar/click2call/js/verto-min.js">
+</script>
+<script type="text/javascript" 
+    src="https://webrtc.anura.com.ar/click2call/click2call.js">
+</script>
+
+<style>
+#click2call a:hover {
+    opacity: 0.5;
+}
+#click2call_callbtn img {
+    height: 200px;
+}
+#click2call_hupbtn img {
+    height: 150px;
+}
+#click2call_msgdiv {
+    font-size: 15px;
+    font-weight: bold;
+}
+</style>
+
+<div id="click2call" align="center">
+<a id="click2call_callbtn">
+<img src="http://webrtc.anura.com.ar/click2call/img/click2call.png">
+</a>
+ 
+<a id="click2call_hupbtn">
+<img src="https://webrtc.anura.com.ar/click2call/img/phone_hang.png">
+</a>
+<div id="click2call_msgdiv"></div>
+ 
+<div style="visibility: hidden; display: none;">
+<input id="click2call_user" value="163">
+<input id="click2call_domain" value="argen.grancentral.com.ar">
+<input id="click2call_password" value="163@119d">
+<input id="click2call_number" value="202">
+<input id="click2call_host" value="wss://webrtc.anura.com.ar:9084">
+</div>
+<div id="media" style="visibility: hidden; display: none;">
+<video width=800 id="webcam" autoplay="autoplay" hidden="true"></video>
+</div>
+</div>
