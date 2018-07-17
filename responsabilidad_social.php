@@ -16,6 +16,11 @@ $nov  = new Novedad();
     $('.fancybox').fancybox();
   });
 </script>
+<img src="imagenes/resp_social/cabecera.png" alt="" class="img_full" />
+
+
+
+
 <section id="club_argenpesos">
 
   <?php 
