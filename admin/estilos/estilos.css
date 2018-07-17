@@ -185,3 +185,17 @@ form img{
     margin-bottom:100px;background-size:cover;background-repeat:no-repeat;width:100%;max-width:638px;height:300px;background-position:center;
 }
 
+
+.image-preview{
+   background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    max-width: 386px;
+    height: 177px;
+    background-position: center;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+

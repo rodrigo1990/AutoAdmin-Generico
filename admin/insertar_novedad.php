@@ -45,8 +45,9 @@ require("inc/verificarSession.php");
                         Buscar&hellip; <input type="file" id="img-portada"  style="display: none;" name="imagen1" >
                     </span>
                 </label>
-                <input type="text" class="form-control"  style="color:black !important;" readonly  >
+                <input type="text" class="form-control" id="img-1"  style="color:black !important;" readonly  >
             </div>
+            <div id="imagen1-cont" class="image-preview"></div>
         </div>
 
        <div class="col-lg-6 col-sm-6 margin">
@@ -59,6 +60,7 @@ require("inc/verificarSession.php");
                 </label>
                 <input type="text" class="form-control" style="color:black !important;" readonly>
             </div>
+            <div id="imagen2-cont" class="image-preview"></div>
         </div>
 
 
@@ -72,6 +74,7 @@ require("inc/verificarSession.php");
                 </label>
                 <input type="text" class="form-control" style="color:black !important;" readonly>
             </div>
+            <div id="imagen3-cont" class="image-preview"></div>
         </div>
 
 
@@ -86,6 +89,7 @@ require("inc/verificarSession.php");
                 </label>
                 <input type="text" class="form-control" style="color:black !important;" readonly>
             </div>
+            <div id="imagen4-cont" class="image-preview"></div>
         </div>
 
 
@@ -100,6 +104,7 @@ require("inc/verificarSession.php");
                 </label>
                 <input type="text" class="form-control" style="color:black !important;" readonly>
             </div>
+            <div id="imagen5-cont" class="image-preview"></div>
         </div>
 
 
@@ -113,6 +118,7 @@ require("inc/verificarSession.php");
                 </label>
                 <input type="text" class="form-control" style="color:black !important;" readonly>
             </div>
+            <div id="imagen6-cont" class="image-preview"></div>
         </div>
 
 
@@ -127,6 +133,7 @@ require("inc/verificarSession.php");
                 </label>
                 <input type="text" class="form-control" style="color:black !important;" readonly>
             </div>
+            <div id="imagen7-cont" class="image-preview"></div>
         </div>
 
 
@@ -143,6 +150,7 @@ require("inc/verificarSession.php");
                 </label>
                 <input type="text" class="form-control" style="color:black !important;" readonly>
             </div>
+            <div id="imagen8-cont" class="image-preview"></div>
         </div>
 
 
@@ -157,6 +165,7 @@ require("inc/verificarSession.php");
                 </label>
                 <input type="text" class="form-control" style="color:black !important;" readonly>
             </div>
+            <div id="imagen9-cont" class="image-preview"></div>
         </div>
 
 
@@ -170,6 +179,7 @@ require("inc/verificarSession.php");
                 </label>
                 <input type="text" class="form-control" style="color:black !important;" readonly>
             </div>
+            <div id="imagen10-cont" class="image-preview"></div>
         </div>
           
         <div class="row padding-bottom">
@@ -234,6 +244,36 @@ require("inc/verificarSession.php");
       });
   });
   
+});
+</script>
+<script>
+  function readURL(input) {
+
+  var DOMId = "#"+input.name+"-cont";
+
+
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+
+    reader.onload = function(e) {
+
+      if($(DOMId).css("display")=="block"){
+        $(DOMId).fadeOut();
+      }
+
+      $(DOMId).css('background-image', 'url(' + e.target.result+ ')');
+      $(DOMId).fadeIn();
+
+    }
+
+    reader.readAsDataURL(input.files[0]);
+  }
+
+  
+}
+
+$("input[type=file]").change(function() {
+  readURL(this);
 });
 </script>
 
