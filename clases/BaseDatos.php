@@ -2,7 +2,7 @@
 
 class BaseDatos{
 
-	public $base='argenpesos_rs_bd';
+	public $base='localhost';
 	public $servidor='localhost';
 	public $conexion;
 	public $mysqli;

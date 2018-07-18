@@ -28,7 +28,7 @@
   <div id="contanedor">
     
     <div class="col-sm-12" id="izquierda_form">
-      <div id="logo"><img src="imagenes/logo.png" alt="" /><?php echo $_POST['localidad']; ?></div> 
+      <div id="logo"><img src="imagenes/logo.png" alt="" /></div> 
       
       <?php
       if(($_POST['nombre']) && ($_POST['dni']))
@@ -53,8 +53,8 @@
 
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = "ssl";
-        $mail->Username = "mcd77.1990@gmail.com";
-        $mail->Password = "Javierjavier1990";
+        $mail->Username = "info@argenpesosonline.com.ar";
+        $mail->Password = "infoArgenpesos2017";
         $mail->Port = "465";
       
         $cuerpo_admin .= "<b>Monto Solicitado:</b> $" . $_POST["valor_monto"] . "<br>";
@@ -67,6 +67,7 @@
         $cuerpo_admin .= "<b>Fecha de Nacimiento:</b> " . $_POST["fecha_nacimiento"] . "<br>";
         $cuerpo_admin .= "<b>Mail:</b> " . $_POST["mail"] . "<br>";
         $cuerpo_admin .= "<b>Localidad:</b> " . $_POST["localidad"] . "<br>";
+        $cuerpo_admin .= "<b>Provincia:</b> " . $_POST["provincia"] . "<br>";
         $cuerpo_admin .= "<b>Empleador:</b> " . $_POST["empleador"] . "<br>";
         $cuerpo_admin .= "<b>Banco:</b> " . $_POST["banco"] . "<br>";
                     
@@ -77,10 +78,17 @@
         $mail_val = rand(0, 1);
         if($mail_val == 0)
         {
+        //  $mail_administrador->AddAddress("mlo1mftx@robot.zapier.com","ArgenPesos");
+         
+        // $mail_administrador->AddAddress("atencionalcliente@argenpesos.com.ar","ArgenPesos");
+          
           $mail_administrador->AddAddress("mcd77.1990@gmail.com","ArgenPesos");
         }
         else
         {
+           // $mail_administrador->AddAddress("atencionalcliente@argenpesos.com.ar","ArgenPesos");
+            
+          //$mail_administrador->AddAddress("mlo1mftx@robot.zapier.com","ArgenPesos");
           $mail_administrador->AddAddress("mcd77.1990@gmail.com","ArgenPesos");
         }
 
@@ -95,8 +103,7 @@
 
         //16509=san justo, 16525=san miguel, 16439==san fernando, 16450=lomas de zamora
         //16381=lanus,//16588=berazategui, 16553=solano,2458=avellandera,16551=quilmes
-        if($localidad==16509 OR $localidad==16525 OR $localidad==16450 OR $localidad==16381
-          OR $localidad==16588 OR $localidad==16553 OR $localidad==2458 OR $localidad==16551 OR $provincia==22)
+        if($localidad=='SAN JUSTO' OR $localidad=='SAN MIGUEL' OR $localidad=='SAN FERNANDO' OR $localidad=='LOMAS DE ZAMORA'OR $localidad=='BERAZATEGUI' OR $localidad=='SOLANO' OR $localidad=='AVELLANEDA' OR $localidad=='QUILMES'OR $localidad=='LANUS' OR $provincia=='Santiago del Estero')
         {
           $mail_admin = $mail_usuario;
 

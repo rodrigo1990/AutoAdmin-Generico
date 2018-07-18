@@ -23,6 +23,9 @@ class Novedad{
 			$consulta=mysqli_query($bd->conexion,$sql);
 			
 		while($fila=mysqli_fetch_assoc($consulta)){
+			if($file==null){
+				echo "hola";
+			}
 			$i++;
 		  echo '<div class="row">
 				    <div class="container">

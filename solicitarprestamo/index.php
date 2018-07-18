@@ -619,7 +619,20 @@ $baseDatos = new BaseDatos();
 
 </script>
 <script>
+        
+
+$(window).on('load', function() { 
+        $("body").css("overflow-y","hidden");
+      $( "body" ).prepend( '<div id="preloader"><div class="spinner-sm spinner-sm-1" id="status"> </div><h2 style="    color: #fff000;font-weight: bolder;font-style: italic;" class="text-center">Estamos procesando <br> su consulta</h2></div>' );
+      $("#preloader").hide(); 
+      $("#status").hide();    
+})
+</script>
+<script>
 function myFunction() {
+
+             
+
 
                 var emailValido=/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
                 var soloLetrasSinEspacios=/^[a-zA-Z]*$/;
@@ -744,8 +757,15 @@ function myFunction() {
                 if(nombre_esta_validado==true && apellido_esta_validado==true &&
                     dni_esta_validado==true && celular_esta_validado==true && email_esta_validado==true && provincia_esta_validado==true && localidad_esta_validado==true && terminos_esta_validado==true && captcha_esta_validado==true ){
 
+                        $("#preloader").show();
+                        $("#status").show(); 
                     	document.getElementById("myForm").submit();
 
+                }else{
+                         // makes sure the whole site is loaded 
+                         $('#status').fadeOut(); // will first fade out the loading animation 
+                        $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+                         $('body').delay(350).css({'overflow':'visible'});
                 }
 
                 

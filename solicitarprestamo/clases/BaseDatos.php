@@ -20,6 +20,7 @@ class BaseDatos{
 
 	public function listarProvincias(){
 
+	
 		$sql="SELECT id,provincia_nombre
 			  FROM provincia
 			  WHERE id!=0";
@@ -28,7 +29,7 @@ class BaseDatos{
 
 		while($fila=mysqli_fetch_assoc($consulta)){
 
-			echo "<option value='".$fila['id']."'>".$fila['provincia_nombre']."</option>";
+			echo "<option value='".$fila['provincia_nombre']."'>".$fila['provincia_nombre']."</option>";
 		
 			
 		}
@@ -36,13 +37,13 @@ class BaseDatos{
 
 	public function buscarCiudadSegunProvincia($provincia){
 
-		if($provincia!=0){
+		if($provincia!='0'){
 
 			//$likeVar = "%" . $provincia . "%";
 
 			$stmt=$this->mysqli->prepare("SELECT CIU.id, CIU.ciudad_nombre	
 			  FROM ciudad CIU JOIN provincia PRO ON CIU.provincia_id=PRO.id  
-			  WHERE PRO.id = ? AND CIU.id!=0
+			  WHERE PRO.provincia_nombre = (?) AND CIU.id!=0
 			  ORDER BY CIU.ciudad_nombre ASC");
 
 			$stmt->bind_param("s",$provincia);
@@ -54,7 +55,7 @@ class BaseDatos{
 			$resultado=$stmt->get_result();
 
 			while($fila=$resultado->fetch_assoc()){
-				echo "<option value='".$fila['id']."'>".$fila['ciudad_nombre']."</option>";
+				echo "<option value='".$fila['ciudad_nombre']."'>".$fila['ciudad_nombre']."</option>";
 			}
 
 
